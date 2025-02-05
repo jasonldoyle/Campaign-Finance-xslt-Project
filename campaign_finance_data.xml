@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="campaign_finance_transform.xslt"?>
+<?xml-stylesheet type="text/xsl" href="campaign_searchbar_upgrade.xslt"?>
 <response>
         <row _id="row-tjis_e9xb.kw6a" _uuid="00000000-0000-0000-1AD2-8D48EF2655D2" _position="0" _address="https://data.cityofnewyork.us/resource/m3tj-a2pb/row-tjis_e9xb.kw6a">
             <el_cycle>2001</el_cycle>

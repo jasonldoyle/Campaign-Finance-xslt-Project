@@ -1,0 +1,8718 @@
+<html>
+<head>
+<title>Campaign Data</title>
+<style>
+          body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+          }
+          h1 {
+            text-align: center;
+            color: #007bff;
+          }
+          #search-bar {
+            display: block;
+            margin: 20px auto;
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+          }
+          table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+          }
+          th, td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+          }
+          th {
+            background-color: #007bff;
+            color: white;
+          }
+          tr:nth-child(even) {
+            background-color: #f9f9f9;
+          }
+          tr:hover {
+            background-color: #f1f1f1;
+          }
+        </style>
+<script>
+          function filterTable() {
+            const searchValue = document.getElementById('search-bar').value.toLowerCase();
+            const rows = document.querySelectorAll('tbody tr');
+            rows.forEach(row => {
+              const candidateName = row.querySelector('td:nth-child(2)').textContent.toLowerCase();
+              row.style.display = candidateName.includes(searchValue) ? '' : 'none';
+            });
+          }
+        </script>
+</head>
+<body>
+<h1>Campaign Contributions</h1>
+<input type="text" id="search-bar" placeholder="Search by Candidate Name..." onkeyup="filterTable()"><table>
+<thead><tr>
+<th>Election Cycle</th>
+<th>Candidate Name</th>
+<th>Borough District</th>
+<th>Net Contributions</th>
+<th>Public Fund Payment</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>2001</td>
+<td>Badillo, Herman (ID:81-P)</td>
+<td>()</td>
+<td>543671</td>
+<td>356723</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Cohen, Mitchel (ID:JH-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Ferrer, Fernando (ID:AY-P)</td>
+<td>()</td>
+<td>5415381</td>
+<td>2871933</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fulani, Lenora (ID:FR-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Golding, Kenneth (ID:562-P)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Green, Mark (ID:A7-P)</td>
+<td>()</td>
+<td>11232542</td>
+<td>4534230</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gronowicz, Anthony (ID:581-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hevesi, Alan (ID:A9-P)</td>
+<td>()</td>
+<td>7182254</td>
+<td>2641247</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hewes, Henry (ID:573-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Iwachiw, Walter (ID:494-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Kramer, Kenny (ID:GA-P)</td>
+<td>()</td>
+<td>17077</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Leighton, Thomas (ID:K1-P)</td>
+<td>()</td>
+<td>500</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>McMillan, Jimmy (ID:D4-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Ruano-Melendez, Eric (ID:BF-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Spitz, George (ID:Y3-P)</td>
+<td>()</td>
+<td>6029</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Vallone, Peter (ID:B1-P)</td>
+<td>()</td>
+<td>4744405</td>
+<td>2458534</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Willebrand, Julia (ID:568-P)</td>
+<td>()</td>
+<td>8658</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Colon, Willie (ID:366-P)</td>
+<td>()</td>
+<td>75610</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>DiBrienza, Stephen (ID:C4-P)</td>
+<td>()</td>
+<td>735659</td>
+<td>1336655</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Flaxman, Sheila (ID:373-P)</td>
+<td>()</td>
+<td>1812</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Freed, Kathryn (ID:C7-P)</td>
+<td>()</td>
+<td>524064</td>
+<td>626484</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gotbaum, Betsy (ID:263-P)</td>
+<td>()</td>
+<td>1763942</td>
+<td>1625090</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Murawski, Bill (ID:ES-P) *</td>
+<td>()</td>
+<td>7322</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Siegel, Norman (ID:310-P)</td>
+<td>()</td>
+<td>572515</td>
+<td>623300</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Srdanovic, Anton (ID:567-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Stringer, Scott (ID:148-P)</td>
+<td>()</td>
+<td>1155646</td>
+<td>1223721</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Zumbluskas, Michael (ID:FY-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Berman, Herbert (ID:HL-P)</td>
+<td>()</td>
+<td>1800352</td>
+<td>1576860</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Thompson, Jr., William (ID:260-P)</td>
+<td>()</td>
+<td>1870122</td>
+<td>1096359</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Carrion, Jr., Adolfo (ID:ED-P)</td>
+<td>(Bx)</td>
+<td>521000</td>
+<td>431802</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Eisland, June (ID:HJ-P)</td>
+<td>(Bx)</td>
+<td>266183</td>
+<td>316548</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Espada, Jr., Pedro (ID:WC-P)</td>
+<td>(Bx)</td>
+<td>123552</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fields, C. Virginia (ID:B6-P)</td>
+<td>(M)</td>
+<td>557483</td>
+<td>444452</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fields, Jessie (ID:526-P)</td>
+<td>(M)</td>
+<td>66166</td>
+<td>135904</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fisher, Kenneth (ID:B8-P)</td>
+<td>(Bk)</td>
+<td>981442</td>
+<td>647350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gadson, Jeanette (ID:284-P)</td>
+<td>(Bk)</td>
+<td>288846</td>
+<td>521969</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gresser, Carol (ID:273-P)</td>
+<td>(Q)</td>
+<td>445286</td>
+<td>596045</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Law, Ronald (ID:365-P)</td>
+<td>(Bx)</td>
+<td>11464</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Leffler, Sheldon (ID:DI-P)</td>
+<td>(Q)</td>
+<td>188079</td>
+<td>296084</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Maio, Danniel (ID:416-P)</td>
+<td>(M)</td>
+<td>10382</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Markowitz, Marty (ID:226-P)</td>
+<td>(Bk)</td>
+<td>589826</td>
+<td>1166294</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Marshall, Helen (ID:E9-P)</td>
+<td>(Q)</td>
+<td>470747</td>
+<td>647173</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Molinaro, James (ID:419-P)</td>
+<td>(SI)</td>
+<td>545087</td>
+<td>879456</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Nunes-Ueno, Paulo (ID:565-P)</td>
+<td>(Bk)</td>
+<td>3185</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>O'Donovan, Jerome (ID:A3-P)</td>
+<td>(SI)</td>
+<td>351242</td>
+<td>647350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Stabile, Alfonso (ID:H2-P)</td>
+<td>(Q)</td>
+<td>97709</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Straniere, Robert (ID:450-P)</td>
+<td>(SI)</td>
+<td>138395</td>
+<td>288388</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Walker, John (ID:513-P)</td>
+<td>(SI)</td>
+<td>11581</td>
+<td>44748</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Warden, Lawrence (ID:EW-P) *</td>
+<td>(Bx)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Williams-Pereira, Dorothy (ID:489-P)</td>
+<td>(Q)</td>
+<td>596</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Zambrana, Haydee (ID:541-P) *</td>
+<td>(Q)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Aboulafia, Sandy (ID:B4-P)</td>
+<td>44</td>
+<td>19511</td>
+<td>45410</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Adams, Jackie (ID:445-P)</td>
+<td>7</td>
+<td>24015</td>
+<td>11073</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Addabbo, Joseph (ID:HF-P)</td>
+<td>32</td>
+<td>119156</td>
+<td>149320</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Alamo-Estrada, Agustin (ID:IR-P)</td>
+<td>14</td>
+<td>8175</td>
+<td>27400</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Alexis, Anthony (ID:437-P) *</td>
+<td>45</td>
+<td>7824</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Alfattah, Ina (ID:496-P) *</td>
+<td>26</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Allen, William (ID:BR-P)</td>
+<td>9</td>
+<td>26940</td>
+<td>62990</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Alleyne, Alithia (ID:454-P)</td>
+<td>40</td>
+<td>14520</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Alonso, Miguel (ID:375-P)</td>
+<td>37</td>
+<td>9789</td>
+<td>36801</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Andrews, Jr., Anthony (ID:241-P)</td>
+<td>28</td>
+<td>64850</td>
+<td>88736</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Arache, Ramon (ID:458-P) *</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Ariola, JoAnn (ID:504-P)</td>
+<td>32</td>
+<td>36749</td>
+<td>69816</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Atwood King, Elizabeth (ID:553-P)</td>
+<td>46</td>
+<td>9332</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Avella, Tony (ID:51-P)</td>
+<td>19</td>
+<td>139000</td>
+<td>150520</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Bader, Paul (ID:279-P)</td>
+<td>39</td>
+<td>65132</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Baez, Maria (ID:591-P)</td>
+<td>14</td>
+<td>58346</td>
+<td>90262</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Baldwin-Ferguson, Imogene (ID:KH-P) *</td>
+<td>35</td>
+<td>8383</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Banks, Steven (ID:258-P)</td>
+<td>39</td>
+<td>108068</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Barron, Charles (ID:DD-P)</td>
+<td>42</td>
+<td>47284</td>
+<td>92498</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Bastone, Terry (ID:256-P)</td>
+<td>11</td>
+<td>14986</td>
+<td>47820</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Benjamin, Michael (ID:25-P)</td>
+<td>16</td>
+<td>61878</td>
+<td>108226</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Bentley, Marvin (ID:342-P) *</td>
+<td>21</td>
+<td>15320</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Bernace, Victor (ID:560-P)</td>
+<td>7</td>
+<td>16985</td>
+<td>19520</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Bilal, Charles (ID:321-P)</td>
+<td>28</td>
+<td>13833</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Blake Jr., Albert (ID:323-NP)</td>
+<td>25</td>
+<td>4300</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Blake, James (ID:330-P)</td>
+<td>31</td>
+<td>34427</td>
+<td>51676</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Bloodsaw, Daryl (ID:508-P)</td>
+<td>7</td>
+<td>16364</td>
+<td>37312</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Bouchard, Michelle (ID:550-P)</td>
+<td>3</td>
+<td>40096</td>
+<td>65704</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Brewer, Gale (ID:399-P)</td>
+<td>6</td>
+<td>139952</td>
+<td>150700</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Brook Krasny, Alec (ID:539-P)</td>
+<td>47</td>
+<td>24789</td>
+<td>66304</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Brooks, Curtis (ID:543-P)</td>
+<td>12</td>
+<td>530</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Brown, Everly (ID:EC-P)</td>
+<td>31</td>
+<td>25250</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Brown, Michael (ID:517-P)</td>
+<td>6</td>
+<td>7690</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Cammarata, Joseph (ID:F9-P)</td>
+<td>49</td>
+<td>24711</td>
+<td>73868</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Carroll, John (ID:306-P)</td>
+<td>39</td>
+<td>67918</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Castellanos, Francesca (ID:DT-P)</td>
+<td>10</td>
+<td>5635</td>
+<td>21292</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Castro, Frank (ID:341-P) *</td>
+<td>25</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Cermeli, Robert (ID:319-P)</td>
+<td>30</td>
+<td>20844</td>
+<td>49572</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Chan, Louisa (ID:394-P)</td>
+<td>25</td>
+<td>13930</td>
+<td>29444</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Cheliotes, Arthur (ID:302-P)</td>
+<td>19</td>
+<td>146855</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Chen, Ethel (ID:CF-P)</td>
+<td>20</td>
+<td>80170</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Chin, Margaret (ID:98-P)</td>
+<td>1</td>
+<td>98786</td>
+<td>164123</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Chin, Rockwell (ID:287-P)</td>
+<td>1</td>
+<td>142145</td>
+<td>166683</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Chou, Evergreen (ID:235-P)</td>
+<td>20</td>
+<td>3409</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Ciafone, John (ID:448-P)</td>
+<td>22</td>
+<td>14665</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Clarke, Amanda (ID:434-P)</td>
+<td>31</td>
+<td>29926</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Clarke, Yvette (ID:511-P)</td>
+<td>40</td>
+<td>68933</td>
+<td>77922</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Cohn, Steven (ID:369-P)</td>
+<td>33</td>
+<td>317309</td>
+<td>147160</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Comrie, Leroy (ID:420-P)</td>
+<td>27</td>
+<td>87570</td>
+<td>71388</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Conley, Joseph (ID:483-P)</td>
+<td>26</td>
+<td>87041</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Cook, Kenneth (ID:587-P)</td>
+<td>40</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Cooper-Gregory, Helen (ID:413-P)</td>
+<td>27</td>
+<td>33369</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Crowley, Elizabeth (ID:530-P)</td>
+<td>30</td>
+<td>127330</td>
+<td>145096</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Curran, Robert (ID:351-P)</td>
+<td>32</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Curry, Anthony (ID:476-P)</td>
+<td>16</td>
+<td>13502</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Daly, Elizabeth (ID:368-P) *</td>
+<td>33</td>
+<td>7300</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Davis, Alfreida (ID:457-P) *</td>
+<td>47</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Davis, James (ID:EQ-P)</td>
+<td>35</td>
+<td>45386</td>
+<td>122382</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>de Blasio, Bill (ID:326-P)</td>
+<td>39</td>
+<td>173453</td>
+<td>142885</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Del Giorno, Jon (ID:K4-P)</td>
+<td>49</td>
+<td>138899</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Del Villar, Angel (ID:453-P)</td>
+<td>21</td>
+<td>28058</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>DeMarco Jr., Alexander (ID:569-P)</td>
+<td>51</td>
+<td>8990</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Detiege-Cormier, Roy-Pierre (ID:501-P) *</td>
+<td>41</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Diamondstone, Kenneth (ID:449-P)</td>
+<td>33</td>
+<td>48024</td>
+<td>94946</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Diaz, Luis (ID:374-P) *</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Dilan, Erik (ID:444-P)</td>
+<td>37</td>
+<td>50629</td>
+<td>80904</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Dominguez, Urpiano Rafael (ID:578-P) *</td>
+<td>37</td>
+<td>3950</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Dotson, Heyward (ID:563-P)</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Doukas, Peter (ID:514-P)</td>
+<td>4</td>
+<td>35550</td>
+<td>65048</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Doyle, Joseph (ID:545-P) *</td>
+<td>32</td>
+<td>4800</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Duggal, Harjinder (ID:523-P) *</td>
+<td>20</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Eagan, Ann (ID:515-P)</td>
+<td>26</td>
+<td>3113</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Espada, Pedro (ID:YA-P)</td>
+<td>17</td>
+<td>19546</td>
+<td>55900</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Evans, Jeanette (ID:329-P)</td>
+<td>29</td>
+<td>1745</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fabozzi, Albert (ID:C6-P) *</td>
+<td>2</td>
+<td>3475</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fadairo, Sikiru (ID:491-P) *</td>
+<td>31</td>
+<td>16849</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Faison, Barbara (ID:516-P)</td>
+<td>42</td>
+<td>6949</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Falcon-Lopez, Miriam (ID:535-P)</td>
+<td>8</td>
+<td>5575</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Farrakhan, Abdur Rahman (ID:538-P) *</td>
+<td>41</td>
+<td>9362</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Farrell, Matthew (ID:426-P)</td>
+<td>26</td>
+<td>83423</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fasolino, Neil (ID:462-P) *</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Felder, Simcha (ID:313-P)</td>
+<td>44</td>
+<td>88010</td>
+<td>150700</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Ferraro, Arnaldo (ID:597-P) *</td>
+<td>43</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fiala, Stephen (ID:H7-P) *</td>
+<td>51</td>
+<td>34080</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fidler, Lewis (ID:527-P)</td>
+<td>46</td>
+<td>76106</td>
+<td>142141</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fintz, Alan (ID:HK-P) *</td>
+<td>48</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Flores, Rodolfo (ID:255-NP)</td>
+<td>25</td>
+<td>5917</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Flores-Vazquez, Martha (ID:234-P)</td>
+<td>20</td>
+<td>14700</td>
+<td>39476</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Foley, Ronald (ID:592-P)</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Foster, Helen Diane (ID:325-P)</td>
+<td>16</td>
+<td>97618</td>
+<td>131798</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>France-Daniels, Mary (ID:AB-P) *</td>
+<td>21</td>
+<td>12010</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Franek, Robert (ID:566-P) *</td>
+<td>39</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Frank, John (ID:301-P)</td>
+<td>19</td>
+<td>32799</td>
+<td>52968</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fratta, John (ID:998-P)</td>
+<td>1</td>
+<td>73425</td>
+<td>91333</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Fullard, Henrietta (ID:316-P)</td>
+<td>31</td>
+<td>8894</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gallagher, Dennis (ID:334-P)</td>
+<td>30</td>
+<td>77588</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gangemi, Ursula (ID:532-P)</td>
+<td>43</td>
+<td>15035</td>
+<td>48480</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gennaro, James (ID:283-P)</td>
+<td>24</td>
+<td>115341</td>
+<td>146314</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gerson, Alan (ID:268-P)</td>
+<td>1</td>
+<td>174192</td>
+<td>165783</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gioia, Eric (ID:418-P)</td>
+<td>26</td>
+<td>122677</td>
+<td>148266</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Golden, Martin (ID:C0-P)</td>
+<td>43</td>
+<td>222155</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Golub, Jay (ID:503-P)</td>
+<td>2</td>
+<td>14046</td>
+<td>19900</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gonzalez-Jarrin, Aida (ID:363-P)</td>
+<td>21</td>
+<td>39211</td>
+<td>71940</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gotlieb, Brian (ID:421-P) *</td>
+<td>47</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gottlieb, Jeff (ID:269-P) *</td>
+<td>24</td>
+<td>37756</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Graziano, Paul (ID:343-P)</td>
+<td>20</td>
+<td>7576</td>
+<td>27320</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Greco, Jr., Rudolph (ID:324-P)</td>
+<td>25</td>
+<td>44224</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Greenwood, Doreen (ID:533-P)</td>
+<td>46</td>
+<td>37625</td>
+<td>78932</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Grodenchik, Barry (ID:238-P)</td>
+<td>24</td>
+<td>97960</td>
+<td>147626</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Gutnik, Oleg (ID:455-P)</td>
+<td>47</td>
+<td>58332</td>
+<td>90908</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Haber, Jason (ID:431-P)</td>
+<td>6</td>
+<td>48404</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hammerman, Craig (ID:308-P)</td>
+<td>39</td>
+<td>32805</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Heaphy, Joe (ID:344-P) *</td>
+<td>26</td>
+<td>38239</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hernandez, Louis (ID:570-P)</td>
+<td>37</td>
+<td>22782</td>
+<td>10976</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Herschaft, Allen (ID:307-NP)</td>
+<td>48</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Herz, David (ID:552-P)</td>
+<td>6</td>
+<td>2700</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hikind, Libby (ID:212-P)</td>
+<td>50</td>
+<td>65241</td>
+<td>124753</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hochhauser, Joseph (ID:502-P)</td>
+<td>47</td>
+<td>12767</td>
+<td>25020</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hodge, Allen (ID:FM-P) *</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Howell, Carol (ID:423-P)</td>
+<td>31</td>
+<td>3377</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hoylman, Brad (ID:296-P)</td>
+<td>1</td>
+<td>243950</td>
+<td>91333</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hughes, Michael (ID:579-P)</td>
+<td>7</td>
+<td>5430</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hui, Kwong (ID:336-P)</td>
+<td>1</td>
+<td>53767</td>
+<td>142973</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hunter, Robert (ID:KN-P)</td>
+<td>35</td>
+<td>8146</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hylton, Christian (ID:388-P)</td>
+<td>45</td>
+<td>52325</td>
+<td>51732</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Iannece, Jerry (ID:DE-P)</td>
+<td>19</td>
+<td>35500</td>
+<td>104602</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Imprescia, Richard (ID:593-P)</td>
+<td>11</td>
+<td>3125</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jackson, Gregory (ID:548-P)</td>
+<td>42</td>
+<td>41030</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jackson, Robert (ID:484-P)</td>
+<td>7</td>
+<td>73149</td>
+<td>107262</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>James, Letitia (ID:480-P)</td>
+<td>35</td>
+<td>98180</td>
+<td>147994</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jannaccio, Richard (ID:460-P)</td>
+<td>20</td>
+<td>12295</td>
+<td>28736</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jefferson, Charlotte (ID:410-P)</td>
+<td>31</td>
+<td>72084</td>
+<td>53273</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jeffries-El, Joseph (ID:499-P)</td>
+<td>42</td>
+<td>18295</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jenkins, Cynthia (ID:CZ-P)</td>
+<td>27</td>
+<td>1825</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jenkins, Patrick (ID:427-P)</td>
+<td>28</td>
+<td>21848</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jennings, Allan (ID:ER-P)</td>
+<td>28</td>
+<td>19113</td>
+<td>41344</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jimenez, Daniel (ID:291-P) *</td>
+<td>21</td>
+<td>10129</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jodha, Rameshwar (ID:IM-P)</td>
+<td>28</td>
+<td>23604</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jones, Barbara (ID:594-P) *</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Jorge, Chris (ID:354-P)</td>
+<td>32</td>
+<td>23253</td>
+<td>45580</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Joyce, Adrian (ID:547-P) *</td>
+<td>20</td>
+<td>21750</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Kann, Jerry (ID:492-P)</td>
+<td>22</td>
+<td>2388</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Katz, Melinda (ID:264-P)</td>
+<td>29</td>
+<td>156378</td>
+<td>150700</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Kaufman, Jordan (ID:392-P)</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Kearney, Michael (ID:409-P)</td>
+<td>26</td>
+<td>59895</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Kinard, Stanley (ID:HP-P)</td>
+<td>36</td>
+<td>1010</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Kirkland, Dwayne (ID:534-P) *</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Koppell, G. Oliver (ID:459-P)</td>
+<td>11</td>
+<td>74275</td>
+<td>148090</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lanza, Andrew (ID:546-P)</td>
+<td>51</td>
+<td>43185</td>
+<td>110891</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Larson, Carl (ID:512-P) *</td>
+<td>51</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lasher, Susan (ID:518-P)</td>
+<td>47</td>
+<td>46989</td>
+<td>53976</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lepore, Louis (ID:519-P) *</td>
+<td>51</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lesczynski, James (ID:424-P)</td>
+<td>5</td>
+<td>1951</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Levine, Mark (ID:311-P)</td>
+<td>7</td>
+<td>112409</td>
+<td>73320</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Levy, Abraham (ID:333-P)</td>
+<td>46</td>
+<td>34154</td>
+<td>55412</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lewis, Anna (ID:298-P)</td>
+<td>6</td>
+<td>42828</td>
+<td>77112</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lewis, Edward (ID:KA-P)</td>
+<td>31</td>
+<td>8881</td>
+<td>30720</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lewis, Prince (ID:574-P)</td>
+<td>42</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lewis, S. Terry (ID:536-P) *</td>
+<td>25</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Liu, John (ID:FI-P)</td>
+<td>20</td>
+<td>210650</td>
+<td>150520</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lizardo, Roberto (ID:C8-P)</td>
+<td>10</td>
+<td>57270</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lobo, Renee (ID:473-P)</td>
+<td>29</td>
+<td>28789</td>
+<td>52672</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lopez, Margarita (ID:BH-P)</td>
+<td>2</td>
+<td>62619</td>
+<td>143682</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Love, Sandra (ID:LY-P) *</td>
+<td>18</td>
+<td>2991</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Luciano, Felipe (ID:472-P)</td>
+<td>8</td>
+<td>51664</td>
+<td>47720</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Lutz, Alex (ID:407-P) *</td>
+<td>32</td>
+<td>9239</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Macron, John (ID:463-P) *</td>
+<td>32</td>
+<td>18050</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Mandell, Linda (ID:389-P) *</td>
+<td>20</td>
+<td>5456</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Marchant, Garth (ID:KJ-P)</td>
+<td>28</td>
+<td>39536</td>
+<td>110086</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Marcial, Edwin (ID:FQ-P) *</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Martin, Yolanda (ID:509-P)</td>
+<td>37</td>
+<td>4167</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Martinez, George (ID:415-P)</td>
+<td>38</td>
+<td>25775</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Martinez, Israel (ID:F3-P) *</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Martinez, Juan (ID:MJ-P)</td>
+<td>34</td>
+<td>83330</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Martinez, Miguel (ID:223-P)</td>
+<td>10</td>
+<td>104605</td>
+<td>128786</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Mascitti, Michael (ID:580-P)</td>
+<td>22</td>
+<td>2960</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Mateo, Heriberto (ID:FA-P)</td>
+<td>37</td>
+<td>28502</td>
+<td>68040</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Mattera, Gloria (ID:440-P)</td>
+<td>39</td>
+<td>9629</td>
+<td>31704</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>May, Jr., Abraham (ID:590-P) *</td>
+<td>35</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>McCleary, Michelle (ID:572-P)</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>McKay, Ed (ID:544-P)</td>
+<td>27</td>
+<td>4249</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>McMahon, Michael (ID:271-P)</td>
+<td>49</td>
+<td>179450</td>
+<td>150700</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Mendolia, Victor (ID:520-P) *</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Michaels, Joel (ID:73-P) *</td>
+<td>47</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Miller, David (ID:F8-P) *</td>
+<td>41</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Miller, Robert (ID:49-P)</td>
+<td>44</td>
+<td>82559</td>
+<td>135118</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Miranda, Anthony (ID:312-P)</td>
+<td>34</td>
+<td>30506</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Monserrate, Hiram (ID:272-P)</td>
+<td>21</td>
+<td>88606</td>
+<td>74430</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Montano, Armando (ID:F5-P)</td>
+<td>18</td>
+<td>75900</td>
+<td>90883</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Moran, Janey (ID:495-P)</td>
+<td>51</td>
+<td>29660</td>
+<td>56284</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Morgan, Ishmael (ID:D0-P)</td>
+<td>27</td>
+<td>7757</td>
+<td>21800</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Morillo, Pedro (ID:555-P)</td>
+<td>7</td>
+<td>8709</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Morisete-Romero, Victor (ID:367-P)</td>
+<td>10</td>
+<td>84723</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Moskowitz, Eva (ID:BW-P)</td>
+<td>4</td>
+<td>207500</td>
+<td>150500</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Munn, Alan (ID:331-NP)</td>
+<td>29</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Nelson, Michael (ID:207-P)</td>
+<td>48</td>
+<td>27187</td>
+<td>63168</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Norman, Edward (ID:267-P)</td>
+<td>34</td>
+<td>107417</td>
+<td>65496</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Norman, Michael (ID:576-P) *</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Oddo, James (ID:214-P)</td>
+<td>50</td>
+<td>88235</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>O'Malley, Patrick (ID:542-P)</td>
+<td>26</td>
+<td>43593</td>
+<td>68724</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Ortiz, Jr., Edwin (ID:278-P)</td>
+<td>15</td>
+<td>14419</td>
+<td>46752</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Padernacht, Daniel (ID:571-P) *</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Palmer, Samuel (ID:247-P)</td>
+<td>45</td>
+<td>61395</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Park, Terence (ID:277-P)</td>
+<td>20</td>
+<td>62073</td>
+<td>67286</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Parker, Kevin (ID:466-P)</td>
+<td>45</td>
+<td>67535</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Perez, Richard (ID:315-P)</td>
+<td>37</td>
+<td>31084</td>
+<td>63756</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Perkins, Bill (ID:D2-P)</td>
+<td>9</td>
+<td>75920</td>
+<td>121650</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Pina, Tirso (ID:582-P)</td>
+<td>10</td>
+<td>8625</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Poisson, Lola (ID:249-P)</td>
+<td>40</td>
+<td>32085</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Pratts, Ruben (ID:589-P) *</td>
+<td>34</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Puello, Giovanni (ID:401-P)</td>
+<td>10</td>
+<td>26609</td>
+<td>50852</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Pugliese, Anthony (ID:391-P)</td>
+<td>39</td>
+<td>68663</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Purcell, Frances (ID:478-P)</td>
+<td>40</td>
+<td>50921</td>
+<td>67932</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Quinn, Christine (ID:204-P)</td>
+<td>3</td>
+<td>33160</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Raffaele, Ellen (ID:318-P) *</td>
+<td>25</td>
+<td>40012</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Recchia, Domenic (ID:LW-P)</td>
+<td>47</td>
+<td>60864</td>
+<td>136327</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Reed, Philip (ID:DC-P)</td>
+<td>8</td>
+<td>99852</td>
+<td>150700</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Reich, David (ID:371-P)</td>
+<td>24</td>
+<td>33903</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Reiss, David (ID:348-P)</td>
+<td>33</td>
+<td>27936</td>
+<td>46048</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Reyna, Diana (ID:452-P)</td>
+<td>34</td>
+<td>70895</td>
+<td>150302</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rivera, Jesse (ID:540-P) *</td>
+<td>37</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rivera, Joel (ID:361-P)</td>
+<td>15</td>
+<td>47288</td>
+<td>70444</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Roberts, Edward (ID:Q2-P)</td>
+<td>40</td>
+<td>21249</td>
+<td>37780</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rodriguez, Angel (ID:CQ-P)</td>
+<td>38</td>
+<td>42760</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rodriguez, Elizabeth (ID:464-P)</td>
+<td>18</td>
+<td>10495</td>
+<td>31685</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rodriguez, Ydanis (ID:353-P)</td>
+<td>10</td>
+<td>71993</td>
+<td>116586</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Romero, Michelle (ID:456-P)</td>
+<td>37</td>
+<td>21973</td>
+<td>22172</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rose, Deborah (ID:292-P)</td>
+<td>49</td>
+<td>58335</td>
+<td>132466</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rosero, Luis (ID:381-P)</td>
+<td>21</td>
+<td>36426</td>
+<td>65356</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rufen-Blanchette, Raymond (ID:524-P) *</td>
+<td>46</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Ruiz, Jr., Israel (ID:AI-P)</td>
+<td>14</td>
+<td>34263</td>
+<td>11423</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rupnarain, Trevor (ID:276-P)</td>
+<td>28</td>
+<td>67602</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Saffran, Dennis (ID:436-P)</td>
+<td>19</td>
+<td>56890</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Sanchez, Cynthia (ID:465-P)</td>
+<td>47</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Sanders, Jr., James (ID:286-P)</td>
+<td>31</td>
+<td>49685</td>
+<td>60152</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Sansivieri, Linda (ID:411-P)</td>
+<td>30</td>
+<td>29480</td>
+<td>75040</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Sauer, Larry (ID:384-P)</td>
+<td>6</td>
+<td>22366</td>
+<td>62436</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Saunders, Shirley (ID:EF-P)</td>
+<td>12</td>
+<td>32527</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Saunders, William (ID:385-P)</td>
+<td>35</td>
+<td>19753</td>
+<td>42075</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Scanlon, Frances (ID:584-P) *</td>
+<td>20</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Schulman, Lynn (ID:433-P)</td>
+<td>29</td>
+<td>34993</td>
+<td>74920</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Schultheis, Magdalena (ID:461-P)</td>
+<td>25</td>
+<td>16215</td>
+<td>38088</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Scissura, Carlo (ID:320-P)</td>
+<td>43</td>
+<td>58174</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Scott, Georgette (ID:564-P) *</td>
+<td>21</td>
+<td>10965</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Seabrook, Larry (ID:G9-P)</td>
+<td>12</td>
+<td>40381</td>
+<td>102426</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Sears, Helen (ID:SH-P)</td>
+<td>25</td>
+<td>72300</td>
+<td>117915</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Seeman, Craig (ID:395-P)</td>
+<td>33</td>
+<td>10212</td>
+<td>31632</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Sementilli, Egidio (ID:IZ-P)</td>
+<td>13</td>
+<td>31742</td>
+<td>89502</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Seminara, Joanne (ID:C2-P)</td>
+<td>43</td>
+<td>143439</td>
+<td>150700</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Seminerio, John (ID:558-P)</td>
+<td>32</td>
+<td>72540</td>
+<td>74350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Serrano, Jose (ID:487-P)</td>
+<td>17</td>
+<td>75415</td>
+<td>75160</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Sharpe, Wellington (ID:370-P)</td>
+<td>40</td>
+<td>21630</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Shepard, Joyce (ID:285-P)</td>
+<td>19</td>
+<td>39564</td>
+<td>55100</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Sica, Philip (ID:557-P)</td>
+<td>23</td>
+<td>6201</td>
+<td>14632</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Simon, Lew (ID:332-P)</td>
+<td>32</td>
+<td>32780</td>
+<td>74750</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Simons, Earl (ID:430-P) *</td>
+<td>27</td>
+<td>16065</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Singer, Pat (ID:252-P)</td>
+<td>47</td>
+<td>22768</td>
+<td>61324</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Singh, Inderjit (ID:358-P)</td>
+<td>28</td>
+<td>18875</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Smith, Larry (ID:531-P)</td>
+<td>27</td>
+<td>17160</td>
+<td>32189</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Smith-Boyd, Barbara (ID:507-P) *</td>
+<td>35</td>
+<td>12171</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Snyder, Gary (ID:575-P)</td>
+<td>6</td>
+<td>5095</td>
+<td>19124</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Spalter, Laura (ID:362-P)</td>
+<td>11</td>
+<td>45745</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Spencer, Tony (ID:356-P)</td>
+<td>7</td>
+<td>31720</td>
+<td>50782</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Spirgel, Samuel (ID:304-P)</td>
+<td>44</td>
+<td>36546</td>
+<td>97454</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Stavitsky, Inna (ID:345-P)</td>
+<td>47</td>
+<td>24808</td>
+<td>53384</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Stewart, Kendall (ID:CP-P)</td>
+<td>45</td>
+<td>56075</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Sulker, Myrna (ID:606-P) *</td>
+<td>40</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Taitt, Samuel (ID:490-P)</td>
+<td>45</td>
+<td>30729</td>
+<td>58530</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Taliaferro, Phyllis (ID:577-P)</td>
+<td>46</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Taveras, Germania (ID:GF-P)</td>
+<td>37</td>
+<td>63176</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Thakral, Jairam (ID:265-P)</td>
+<td>23</td>
+<td>46128</td>
+<td>75064</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Thomas, Carl (ID:549-P) *</td>
+<td>40</td>
+<td>7300</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Tiraco, Joseph (ID:DH-P)</td>
+<td>29</td>
+<td>2573</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Titus, Michele (ID:406-P) *</td>
+<td>28</td>
+<td>8223</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Toney, Vaughan (ID:168-P)</td>
+<td>45</td>
+<td>36365</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Toppin, Roger (ID:561-P)</td>
+<td>12</td>
+<td>200</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Torres, Mario (ID:317-P)</td>
+<td>7</td>
+<td>118726</td>
+<td>82082</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Vallone, Jr., Peter (ID:240-P)</td>
+<td>22</td>
+<td>135385</td>
+<td>114910</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Van Bramer, James (ID:337-P)</td>
+<td>25</td>
+<td>66879</td>
+<td>133146</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Vann, Albert (ID:202-P)</td>
+<td>36</td>
+<td>80154</td>
+<td>75200</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Vargas, Ruben Dario (ID:DP-P)</td>
+<td>10</td>
+<td>11705</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Vassos, Sandra (ID:554-P)</td>
+<td>22</td>
+<td>101355</td>
+<td>68234</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Vernet, Jean (ID:529-P)</td>
+<td>40</td>
+<td>57926</td>
+<td>70664</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Viest, Nicholas (ID:521-P)</td>
+<td>4</td>
+<td>30036</td>
+<td>58488</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Villaverde, Sergio (ID:CY-P)</td>
+<td>14</td>
+<td>11965</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Vogel, Mark (ID:327-P)</td>
+<td>11</td>
+<td>20123</td>
+<td>50112</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Wai, Sidique (ID:382-P)</td>
+<td>35</td>
+<td>24015</td>
+<td>62184</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Walker, Willie (ID:510-P)</td>
+<td>9</td>
+<td>7307</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Walsh, Ryan (ID:586-P)</td>
+<td>20</td>
+<td>7925</td>
+<td>21946</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Wasserman, Abraham (ID:412-P)</td>
+<td>35</td>
+<td>12060</td>
+<td>41656</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Wein, Joseph Funicell (ID:475-P)</td>
+<td>50</td>
+<td>25115</td>
+<td>61260</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Weir, Elias (ID:551-P)</td>
+<td>46</td>
+<td>1885</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Weiss, Steven (ID:585-P) *</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Weprin, David (ID:232-P)</td>
+<td>23</td>
+<td>124139</td>
+<td>145850</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Whitney, W Ruth (ID:441-P) *</td>
+<td>40</td>
+<td>11201</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Williams, Charles (ID:583-P)</td>
+<td>14</td>
+<td>11705</td>
+<td>35808</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Williams, Peter (ID:528-P)</td>
+<td>35</td>
+<td>34125</td>
+<td>75350</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Wilson, Jay (ID:588-P)</td>
+<td>2</td>
+<td>5665</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Wilson, John (ID:537-P)</td>
+<td>13</td>
+<td>10795</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Wooten, Donald (ID:559-P)</td>
+<td>42</td>
+<td>10848</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Wright, Edward (ID:209-P) *</td>
+<td>35</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Yassky, David (ID:280-P)</td>
+<td>33</td>
+<td>86429</td>
+<td>150700</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Younger-Nolan, Carolyn (ID:488-P) *</td>
+<td>28</td>
+<td>6066</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Zapiti, Mike (ID:274-P)</td>
+<td>22</td>
+<td>45075</td>
+<td>12172</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Zett, Lori (ID:442-P)</td>
+<td>24</td>
+<td>35</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Abel, Michael (ID:DU-NP)</td>
+<td>()</td>
+<td>20897</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Alam, Morshed (ID:352-NP)</td>
+<td>()</td>
+<td>15656</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Albanese, Salvatore (ID:AU-NP)</td>
+<td>()</td>
+<td>258774</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Atkins, Gregory (ID:270-NP)</td>
+<td>()</td>
+<td>16649</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Butler, Christopher (ID:289-NP)</td>
+<td>()</td>
+<td>7700</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Butts-Brinson, Albertha (ID:335-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Cherner, Joseph (ID:251-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Cruz, Lucy (ID:AJ-P) *</td>
+<td>()</td>
+<td>500</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Dendekker, Michael (ID:396-NP)</td>
+<td>()</td>
+<td>9340</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>DePaula, Erik (ID:408-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Farber, Peter (ID:398-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Haslip, Joseph (ID:D9-NP)</td>
+<td>()</td>
+<td>6325</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Heastie, Carl (ID:305-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Hikind, Dov (ID:309-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Koslowitz, Karen (ID:GS-NP)</td>
+<td>()</td>
+<td>130655</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Kramer, Irma (ID:210-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Landis, Marc (ID:ML-NP)</td>
+<td>()</td>
+<td>2750</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Levin, Lew (ID:G2-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Mahlke, P. Wayne (ID:393-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Ognibene, Thomas (ID:GT-NP)</td>
+<td>()</td>
+<td>26711</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Orlando, John (ID:257-NP)</td>
+<td>()</td>
+<td>16140</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Paterson, David (ID:28-NP)</td>
+<td>()</td>
+<td>49477</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Pheffer, Audrey (ID:403-NP)</td>
+<td>()</td>
+<td>72313</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Pressley, Joe (ID:360-NP)</td>
+<td>()</td>
+<td>10757</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rapaport, Marsha (ID:299-NP)</td>
+<td>()</td>
+<td>690</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Ravitz, John (ID:KR-NP)</td>
+<td>()</td>
+<td>133989</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Reiter, Fran (ID:FO-NP)</td>
+<td>()</td>
+<td>338349</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Rivera, Jose (ID:B3-NP)</td>
+<td>()</td>
+<td>1220</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Shulman, Claire (ID:B5-NP)</td>
+<td>()</td>
+<td>60802</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Siegal, Bernice (ID:230-NP)</td>
+<td>()</td>
+<td>56910</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Smyth, John (ID:259-NP)</td>
+<td>()</td>
+<td>500</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Toal, Joseph (ID:349-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Towns, Darryl (ID:237-NP)</td>
+<td>()</td>
+<td>10700</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>Waid, David (ID:228-NP)</td>
+<td>()</td>
+<td>40116</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Addabbo, Joseph (ID:HF-P)</td>
+<td>32</td>
+<td>86885</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Alamo-Estrada, Agustin (ID:IR-P)</td>
+<td>17</td>
+<td>16477</td>
+<td>57188</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Arangio, Jennifer (ID:728-P)</td>
+<td>5</td>
+<td>23015</td>
+<td>56821</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Askew, Othniel Boaz (ID:766-P) *</td>
+<td>35</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Atwood King, Elizabeth (ID:553-P) *</td>
+<td>46</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Avella, Tony (ID:51-P)</td>
+<td>19</td>
+<td>113339</td>
+<td>70256</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Baez, Iris (ID:741-P) *</td>
+<td>14</td>
+<td>7265</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Baez, Maria (ID:591-P)</td>
+<td>14</td>
+<td>83065</td>
+<td>86675</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Barron, Charles (ID:DD-P)</td>
+<td>42</td>
+<td>23358</td>
+<td>66304</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Bernace, Victor (ID:560-P)</td>
+<td>7</td>
+<td>14460</td>
+<td>44060</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Betancourt Jr, Ismael (ID:HB-P)</td>
+<td>13</td>
+<td>36491</td>
+<td>100000</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Blake, James (ID:330-P) *</td>
+<td>31</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Bondy, Matthew (ID:749-P) *</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Booker, Derek (ID:752-P)</td>
+<td>42</td>
+<td>1130</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Boucher, Omar (ID:722-P)</td>
+<td>45</td>
+<td>20306</td>
+<td>38900</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Brewer, Gale (ID:399-P)</td>
+<td>6</td>
+<td>85802</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Brown, Everly (ID:EC-P)</td>
+<td>31</td>
+<td>27896</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Capano, Robert (ID:709-NP)</td>
+<td>43</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Clarke, Yvette (ID:511-P)</td>
+<td>40</td>
+<td>27801</td>
+<td>20625</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Comrie, Leroy (ID:420-P)</td>
+<td>27</td>
+<td>114479</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Conley, Joseph (ID:483-P) *</td>
+<td>26</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Cooper-Gregory, Helen (ID:413-P)</td>
+<td>27</td>
+<td>22901</td>
+<td>60120</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Cornelius, Yasmin (ID:754-P) *</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Cox, Allen (ID:652-P)</td>
+<td>7</td>
+<td>6425</td>
+<td>22540</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Davis, Geoffrey (ID:794-P)</td>
+<td>35</td>
+<td>33069</td>
+<td>31912</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Davis, James (ID:EQ-P) *</td>
+<td>35</td>
+<td>63370</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>de Blasio, Bill (ID:326-P)</td>
+<td>39</td>
+<td>247381</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Deponce, Carmen (ID:747-P) *</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Detiege-Cormier, Roy-Pierre (ID:501-NP)</td>
+<td>41</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Dilan, Erik (ID:444-P)</td>
+<td>37</td>
+<td>85360</td>
+<td>87140</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Draves, Greg (ID:681-P)</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Duran, Martina (ID:661-P)</td>
+<td>27</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Eisenberg, Tony (ID:761-P) *</td>
+<td>47</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Elliott, Seth (ID:723-P)</td>
+<td>1</td>
+<td>6240</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Emmanuel, Ernest (ID:E5-P) *</td>
+<td>45</td>
+<td>745</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Evans, Stephen (ID:744-P)</td>
+<td>3</td>
+<td>23015</td>
+<td>36916</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Felder, Simcha (ID:313-P)</td>
+<td>44</td>
+<td>172788</td>
+<td>100000</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Fidler, Lewis (ID:527-P)</td>
+<td>46</td>
+<td>70110</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Figueroa, Felix (ID:733-P)</td>
+<td>10</td>
+<td>28874</td>
+<td>74696</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Fisher, Florence (ID:TH-P)</td>
+<td>24</td>
+<td>35367</td>
+<td>66128</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Fontaino, Frank (ID:751-P)</td>
+<td>50</td>
+<td>6668</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Foster, Helen Diane (ID:325-P)</td>
+<td>16</td>
+<td>53817</td>
+<td>20625</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Gallagher, Dennis (ID:334-P)</td>
+<td>30</td>
+<td>83296</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Gennaro, James (ID:283-P)</td>
+<td>24</td>
+<td>140726</td>
+<td>103125</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Gentile, Vincent (ID:717-P)</td>
+<td>43</td>
+<td>70948</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Gerson, Alan (ID:268-P)</td>
+<td>1</td>
+<td>114299</td>
+<td>103125</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Gioia, Eric (ID:418-P)</td>
+<td>26</td>
+<td>306736</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Giovinazzo, Lisa (ID:756-P)</td>
+<td>49</td>
+<td>38854</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Gleason, Peter (ID:763-P)</td>
+<td>1</td>
+<td>17910</td>
+<td>18904</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Golub, Jay (ID:503-P)</td>
+<td>2</td>
+<td>18980</td>
+<td>44269</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Gonzalez, Sara (ID:711-P)</td>
+<td>38</td>
+<td>38404</td>
+<td>44916</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Goodstein, Susan (ID:755-P)</td>
+<td>46</td>
+<td>9018</td>
+<td>32952</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Harrison, Stephen (ID:719-P) *</td>
+<td>43</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Herbert, Anthony (ID:738-P)</td>
+<td>35</td>
+<td>22470</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Hochhauser, Joseph (ID:502-P) *</td>
+<td>47</td>
+<td>13260</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Horowitz, William (ID:748-P)</td>
+<td>23</td>
+<td>6210</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Hurley, Patrick (ID:757-P)</td>
+<td>26</td>
+<td>16490</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Iwachiw, Walter (ID:494-P) *</td>
+<td>26</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Jackson, Robert (ID:484-P)</td>
+<td>7</td>
+<td>63947</td>
+<td>75862</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Jackson, Stephen (ID:660-P) *</td>
+<td>27</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>James, Letitia (ID:480-P)</td>
+<td>35</td>
+<td>104061</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Jennings, Allan (ID:ER-P)</td>
+<td>28</td>
+<td>43235</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Johnson, Geoffrey (ID:J6-P)</td>
+<td>9</td>
+<td>6360</td>
+<td>23700</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Johnson, Joyce (ID:768-P) *</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Jones, Stephen (ID:760-P) *</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Junior, Pamela (ID:742-NP)</td>
+<td>41</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Kann, Jerry (ID:492-P)</td>
+<td>22</td>
+<td>2022</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Katz, Melinda (ID:264-P)</td>
+<td>29</td>
+<td>220311</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Kinard, Stanley (ID:HP-P)</td>
+<td>41</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>King, Erlene (ID:716-P)</td>
+<td>45</td>
+<td>12642</td>
+<td>13832</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Koppell, G. Oliver (ID:459-P)</td>
+<td>11</td>
+<td>79767</td>
+<td>20625</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Lanza, Andrew (ID:546-P)</td>
+<td>51</td>
+<td>47445</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Liu, Jay (ID:746-P) *</td>
+<td>20</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Liu, John (ID:FI-P)</td>
+<td>20</td>
+<td>109693</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Lizardo, Roberto (ID:C8-P)</td>
+<td>10</td>
+<td>46977</td>
+<td>128287</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Lopez, Margarita (ID:BH-P)</td>
+<td>2</td>
+<td>27709</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Luciano, Felipe (ID:472-P) *</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Maio, Danniel (ID:416-P)</td>
+<td>38</td>
+<td>2240</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Marchant, Garth (ID:KJ-P) *</td>
+<td>28</td>
+<td>2684</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Marcial, Edwin (ID:FQ-P)</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Maresca, Stephen (ID:165-P) *</td>
+<td>43</td>
+<td>4055</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Mark-Viverito, Melissa (ID:743-P)</td>
+<td>8</td>
+<td>19770</td>
+<td>41160</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Martinez, Juan (ID:MJ-P)</td>
+<td>34</td>
+<td>78155</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Martinez, Miguel (ID:223-P)</td>
+<td>10</td>
+<td>170380</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Martinez, Mildred (ID:764-P) *</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Mattera, Gloria (ID:440-P)</td>
+<td>39</td>
+<td>13539</td>
+<td>47644</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>McMahon, Michael (ID:271-P)</td>
+<td>49</td>
+<td>128008</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Miller, A. Gifford (ID:Y2-P)</td>
+<td>5</td>
+<td>156292</td>
+<td>79780</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Miller, David (ID:F8-P)</td>
+<td>41</td>
+<td>19075</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Monserrate, Hiram (ID:272-P)</td>
+<td>21</td>
+<td>136935</td>
+<td>94860</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Montague, Virginia (ID:CB-P)</td>
+<td>9</td>
+<td>32530</td>
+<td>63169</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Montalvo, Joseph (ID:727-P) *</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Morrisey, Keisha (ID:765-P)</td>
+<td>9</td>
+<td>8043</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Moskowitz, Eva (ID:BW-P)</td>
+<td>4</td>
+<td>184639</td>
+<td>120625</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Mossa, Michael (ID:737-P)</td>
+<td>32</td>
+<td>24270</td>
+<td>75020</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Nelson, Michael (ID:207-P)</td>
+<td>48</td>
+<td>41095</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Oddo, James (ID:214-P)</td>
+<td>50</td>
+<td>80370</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Ohanian, Kim (ID:731-P) *</td>
+<td>20</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Palma, Annabel (ID:767-P)</td>
+<td>18</td>
+<td>139655</td>
+<td>93750</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Perkins, Bill (ID:D2-P)</td>
+<td>9</td>
+<td>55888</td>
+<td>95768</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Quinn, Christine (ID:204-P)</td>
+<td>3</td>
+<td>138047</td>
+<td>20625</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Ragusa, Philip (ID:D7-P)</td>
+<td>19</td>
+<td>46149</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Recchia, Domenic (ID:LW-P)</td>
+<td>47</td>
+<td>65596</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Reddick, Yvonne (ID:762-P)</td>
+<td>28</td>
+<td>49035</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Reed, Philip (ID:DC-P)</td>
+<td>8</td>
+<td>68941</td>
+<td>102154</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Reich, David (ID:371-P)</td>
+<td>24</td>
+<td>25244</td>
+<td>81356</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Reyna, Diana (ID:452-P)</td>
+<td>34</td>
+<td>88090</td>
+<td>79160</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Rivera, Joel (ID:361-P)</td>
+<td>15</td>
+<td>116130</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Rodriguez, Luana (ID:730-P)</td>
+<td>15</td>
+<td>8740</td>
+<td>32140</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Rodriguez, Ydanis (ID:353-P)</td>
+<td>10</td>
+<td>50691</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Rosado, Felix (ID:759-P)</td>
+<td>8</td>
+<td>17699</td>
+<td>59016</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Ruano-Melendez, Eric (ID:BF-P)</td>
+<td>21</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Ruiz, Jr., Israel (ID:AI-P)</td>
+<td>14</td>
+<td>27693</td>
+<td>80346</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Russo, Pasqualino (ID:758-P)</td>
+<td>43</td>
+<td>93433</td>
+<td>103125</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Santiago, Nellie (ID:724-P)</td>
+<td>37</td>
+<td>68688</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Sasson, Isaac (ID:732-P)</td>
+<td>20</td>
+<td>34697</td>
+<td>70899</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Saunders, Shirley (ID:EF-P)</td>
+<td>12</td>
+<td>24229</td>
+<td>72356</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Schriffen, Gerard (ID:739-P) *</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Seabrook, Larry (ID:G9-P)</td>
+<td>12</td>
+<td>77583</td>
+<td>127500</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Sears, Helen (ID:SH-P)</td>
+<td>25</td>
+<td>93671</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Sementilli, Egidio (ID:IZ-P)</td>
+<td>13</td>
+<td>16136</td>
+<td>41035</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Seminara, Joanne (ID:C2-NP)</td>
+<td>43</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Serrano, Jose (ID:487-P)</td>
+<td>17</td>
+<td>45095</td>
+<td>24320</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Singh, Inderjit (ID:358-P)</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Spuches, Christopher (ID:740-P) *</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Stewart, Kendall (ID:CP-P)</td>
+<td>45</td>
+<td>62730</td>
+<td>85000</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Sutliff, James (ID:HS-P)</td>
+<td>47</td>
+<td>10763</td>
+<td>27564</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Sybing, Roehl (ID:745-P)</td>
+<td>51</td>
+<td>7251</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Taitt, Samuel (ID:490-P)</td>
+<td>45</td>
+<td>30652</td>
+<td>63460</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Vallone, Jr., Peter (ID:240-P)</td>
+<td>22</td>
+<td>195110</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Vargas, Ruben Dario (ID:DP-P)</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Wasserman, Abraham (ID:412-P)</td>
+<td>35</td>
+<td>16078</td>
+<td>62700</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Weir, Elias (ID:551-P) *</td>
+<td>46</td>
+<td>1615</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Weprin, David (ID:232-P)</td>
+<td>23</td>
+<td>355327</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Yablon, Joshua (ID:729-P)</td>
+<td>6</td>
+<td>17630</td>
+<td>48328</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Yassky, David (ID:280-P)</td>
+<td>33</td>
+<td>148639</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Younger-Nolan, Carolyn (ID:488-P) *</td>
+<td>28</td>
+<td>1305</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Cohen, Daniel (ID:750-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Kavanagh, Brian (ID:753-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Park, Terence (ID:277-NP)</td>
+<td>()</td>
+<td>3300</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>Quart, Dan (ID:710-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Adames, Jose (ID:791-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Bloomberg, Michael (ID:605-NP)</td>
+<td>()</td>
+<td>84155868</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Blum, Seth (ID:814-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Brodeur, Christopher (ID:603-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Chino, Theo (ID:844-P) *</td>
+<td>()</td>
+<td>1799</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Ferrer, Fernando (ID:AY-P)</td>
+<td>()</td>
+<td>5294483</td>
+<td>4361060</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Fields, C. Virginia (ID:B6-P)</td>
+<td>()</td>
+<td>1756020</td>
+<td>1459636</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gronowicz, Anthony (ID:581-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Kolber, Beverly (ID:1060-NP) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Koppel, Martin (ID:1029-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>McMillan, Jimmy (ID:D4-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Miller, A. Gifford (ID:Y2-P)</td>
+<td>()</td>
+<td>5181861</td>
+<td>2462951</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Ognibene, Thomas (ID:GT-P)</td>
+<td>()</td>
+<td>82284</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Piccolo, Arthur (ID:1026-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Shaw, Steven (ID:806-NP) *</td>
+<td>()</td>
+<td>34861</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Silk, Audrey (ID:1010-NP)</td>
+<td>()</td>
+<td>240</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Sloan, Sam (ID:1012-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Weiner, Anthony (ID:BB-P)</td>
+<td>()</td>
+<td>2811373</td>
+<td>1734228</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Brown, Michael (ID:517-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Cabbagestalk, Jr., Damon (ID:848-P)</td>
+<td>()</td>
+<td>2167</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Goetz, Bernard (ID:687-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Golub, Jay (ID:503-P)</td>
+<td>()</td>
+<td>52670</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gotbaum, Betsy (ID:263-P)</td>
+<td>()</td>
+<td>1609475</td>
+<td>1170700</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Lesczynski, James (ID:424-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Maio, Danniel (ID:416-P) *</td>
+<td>()</td>
+<td>1691</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Rasiej, Andrew (ID:882-P)</td>
+<td>()</td>
+<td>337422</td>
+<td>785249</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Ruano-Melendez, Eric (ID:BF-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Siegel, Norman (ID:310-P)</td>
+<td>()</td>
+<td>359667</td>
+<td>729052</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Brennan, James (ID:798-NP) *</td>
+<td>()</td>
+<td>102509</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Fein, Daniel (ID:1028-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Moore, Ron (ID:1025-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Sutliff, Jessica (ID:1002-P) *</td>
+<td>()</td>
+<td>10592</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Thompson, Jr., William (ID:260-P)</td>
+<td>()</td>
+<td>3844371</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Brawley, Kevin (ID:666-NP)</td>
+<td>(Bx)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Carrion, Jr., Adolfo (ID:ED-P)</td>
+<td>(Bx)</td>
+<td>1073779</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Ellner, Brian (ID:809-P)</td>
+<td>(M)</td>
+<td>515988</td>
+<td>708950</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Espaillat, Adriano (ID:93-P)</td>
+<td>(M)</td>
+<td>571463</td>
+<td>522599</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Fields, Jessie (ID:526-P)</td>
+<td>(M)</td>
+<td>47525</td>
+<td>141189</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Hawkins, Arrin (ID:1027-NP)</td>
+<td>(M)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Johnston, Brian (ID:836-NP) *</td>
+<td>(M)</td>
+<td>1063</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Lopez, Margarita (ID:BH-P)</td>
+<td>(M)</td>
+<td>497520</td>
+<td>453745</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Luisi, John (ID:857-P)</td>
+<td>(SI)</td>
+<td>49175</td>
+<td>107736</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Manzano, Carlos (ID:206-P)</td>
+<td>(M)</td>
+<td>395425</td>
+<td>620836</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Markowitz, Marty (ID:226-P)</td>
+<td>(Bk)</td>
+<td>1652350</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Marshall, Helen (ID:E9-P)</td>
+<td>(Q)</td>
+<td>254582</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Mattera, Gloria (ID:440-P)</td>
+<td>(Bk)</td>
+<td>62403</td>
+<td>199526</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Michels, Stanley (ID:EH-P)</td>
+<td>(M)</td>
+<td>180777</td>
+<td>296716</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Molinaro, James (ID:419-P)</td>
+<td>(SI)</td>
+<td>479357</td>
+<td>596660</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Moskowitz, Eva (ID:BW-P)</td>
+<td>(M)</td>
+<td>940288</td>
+<td>625788</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Perkins, Bill (ID:D2-P)</td>
+<td>(M)</td>
+<td>381103</td>
+<td>429913</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Popik, Barry (ID:887-P)</td>
+<td>(M)</td>
+<td>10025</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Popkin, Gary (ID:689-NP)</td>
+<td>(Bk)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Sica, Philip (ID:557-P)</td>
+<td>(Q)</td>
+<td>14000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Stringer, Scott (ID:148-P)</td>
+<td>(M)</td>
+<td>1006911</td>
+<td>708950</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Wright, Keith (ID:828-P)</td>
+<td>(M)</td>
+<td>312991</td>
+<td>173090</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Addabbo, Joseph (ID:HF-P)</td>
+<td>32</td>
+<td>47430</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Akbar, Celestina (ID:884-P) *</td>
+<td>23</td>
+<td>480</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Allen, William (ID:BR-NP)</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Almodovar, Harry (ID:1015-P) *</td>
+<td>17</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Ampry-Samuel, Alicka (ID:829-NP)</td>
+<td>41</td>
+<td>17269</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Antoine, Royston (ID:864-P)</td>
+<td>41</td>
+<td>21915</td>
+<td>59900</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Arangio, Jennifer (ID:728-P) *</td>
+<td>5</td>
+<td>25</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Arroyo, Maria (ID:838-P)</td>
+<td>17</td>
+<td>28690</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Avella, Tony (ID:51-P)</td>
+<td>19</td>
+<td>133307</td>
+<td>75120</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Baez, Maria (ID:591-P)</td>
+<td>14</td>
+<td>90110</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Baldeo, Albert (ID:835-P)</td>
+<td>28</td>
+<td>103855</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Bari, Asef (ID:1006-P) *</td>
+<td>24</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Barron, Charles (ID:DD-P)</td>
+<td>42</td>
+<td>65537</td>
+<td>141077</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Bernace, Victor (ID:560-P)</td>
+<td>7</td>
+<td>14390</td>
+<td>48900</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Betancourt Jr, Ismael (ID:HB-P)</td>
+<td>13</td>
+<td>31385</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Beys, Michael (ID:870-P)</td>
+<td>2</td>
+<td>81621</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Bilal, Charles (ID:321-P)</td>
+<td>28</td>
+<td>26195</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Billups, Charles (ID:852-P)</td>
+<td>35</td>
+<td>16139</td>
+<td>44924</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Blackwell, Eric (ID:MT-P)</td>
+<td>35</td>
+<td>14754</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Bloch, Darren (ID:849-P)</td>
+<td>2</td>
+<td>78496</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Bloodsaw, Daryl (ID:508-P)</td>
+<td>9</td>
+<td>22697</td>
+<td>37700</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Booker, Derek (ID:752-P) *</td>
+<td>42</td>
+<td>100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Boudouvas, Peter (ID:890-P)</td>
+<td>19</td>
+<td>34473</td>
+<td>81960</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Boyland, Sr., William (ID:865-NP)</td>
+<td>41</td>
+<td>63050</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Bradian, Steve (ID:1051-NP)</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Brewer, Gale (ID:399-P)</td>
+<td>6</td>
+<td>111118</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Brightharp, Joan (ID:830-P)</td>
+<td>2</td>
+<td>8987</td>
+<td>25512</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Brodsky, Meryl (ID:812-P)</td>
+<td>4</td>
+<td>63232</td>
+<td>55776</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Brown Jr, Will (ID:1011-P)</td>
+<td>9</td>
+<td>10580</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Burton III, Arthur (ID:827-P) *</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Capano, Robert (ID:709-NP) *</td>
+<td>43</td>
+<td>17332</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Carlino, John (ID:892-P)</td>
+<td>2</td>
+<td>9410</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Carroll, Rodney (ID:840-P)</td>
+<td>9</td>
+<td>43265</td>
+<td>72420</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Cavaco, Manuel (ID:984-P) *</td>
+<td>2</td>
+<td>1300</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Ceder, David (ID:891-P)</td>
+<td>50</td>
+<td>9963</td>
+<td>25324</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Cesnik, Eric (ID:853-P)</td>
+<td>5</td>
+<td>45371</td>
+<td>50518</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Clarke, Yvette (ID:511-P)</td>
+<td>40</td>
+<td>89166</td>
+<td>81784</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Cohen, Daniel (ID:750-NP) *</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Comrie, Leroy (ID:420-NP)</td>
+<td>27</td>
+<td>211624</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Cornelius, Yasmin (ID:754-P)</td>
+<td>9</td>
+<td>88925</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Daniels III, Eugene (ID:474-NP) *</td>
+<td>9</td>
+<td>15215</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Davis, Melvin (ID:894-P) *</td>
+<td>41</td>
+<td>558</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>de Blasio, Bill (ID:326-P)</td>
+<td>39</td>
+<td>204212</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>DeMicoli, John (ID:1058-NP) *</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Denis, Nelson (ID:Q0-P)</td>
+<td>8</td>
+<td>65227</td>
+<td>78562</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Diaz, Clifton Stanley (ID:1024-NP) *</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Dickens, Inez (ID:867-P)</td>
+<td>9</td>
+<td>184816</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Dilan, Erik (ID:444-P)</td>
+<td>37</td>
+<td>37165</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>DiPadova, David (ID:808-NP) *</td>
+<td>23</td>
+<td>2223</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Doty, Cynthia (ID:860-P)</td>
+<td>9</td>
+<td>24551</td>
+<td>65044</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Duggan, Essie (ID:854-P)</td>
+<td>41</td>
+<td>7150</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Eisenberg, Tony (ID:761-NP) *</td>
+<td>47</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Emmanuel, Ernest (ID:E5-P) *</td>
+<td>45</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Estrada Rukaj, Irene (ID:889-P) *</td>
+<td>13</td>
+<td>433</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Farmer, Bryan (ID:1043-NP)</td>
+<td>34</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Felder, Simcha (ID:313-NP)</td>
+<td>44</td>
+<td>283362</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Fidler, Lewis (ID:527-P)</td>
+<td>46</td>
+<td>43013</td>
+<td>94592</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Flanagan, Claudia (ID:880-P)</td>
+<td>2</td>
+<td>475</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Flores, Rodolfo (ID:255-NP)</td>
+<td>25</td>
+<td>13005</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Foglia, Philip (ID:879-P)</td>
+<td>13</td>
+<td>80427</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Foster, Helen Diane (ID:325-P)</td>
+<td>16</td>
+<td>92677</td>
+<td>20625</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Galarza, David (ID:851-P)</td>
+<td>38</td>
+<td>25706</td>
+<td>52290</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gallagher, Dennis (ID:334-P)</td>
+<td>30</td>
+<td>122806</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gallo, Russell (ID:1005-P)</td>
+<td>47</td>
+<td>6985</td>
+<td>24860</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Garodnick, Daniel (ID:721-P)</td>
+<td>4</td>
+<td>196443</td>
+<td>165000</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gelin, Tania (ID:1018-NP) *</td>
+<td>41</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gennaro, James (ID:283-P)</td>
+<td>24</td>
+<td>214792</td>
+<td>127204</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gentile, Vincent (ID:717-P)</td>
+<td>43</td>
+<td>125935</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gerson, Alan (ID:268-P)</td>
+<td>1</td>
+<td>137651</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gibbs, Edward (ID:878-P) *</td>
+<td>8</td>
+<td>1125</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gioia, Eric (ID:418-P)</td>
+<td>26</td>
+<td>534484</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gleason, Peter (ID:763-NP) *</td>
+<td>1</td>
+<td>9118</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gonzalez, Miguel (ID:1036-NP)</td>
+<td>37</td>
+<td>624</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Gonzalez, Sara (ID:711-P)</td>
+<td>38</td>
+<td>73376</td>
+<td>67580</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Goodwin, Gwen (ID:1009-P) *</td>
+<td>8</td>
+<td>2640</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Grandoit, Tamara (ID:872-P)</td>
+<td>46</td>
+<td>21498</td>
+<td>73972</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Hall, Jody (ID:1004-P)</td>
+<td>49</td>
+<td>42761</td>
+<td>75020</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Hanks, Nancy (ID:1048-NP)</td>
+<td>26</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Henderson, Woody (ID:790-P)</td>
+<td>9</td>
+<td>8080</td>
+<td>21580</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Herbert, Anthony (ID:738-P)</td>
+<td>35</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Hoffnung, Ari (ID:825-P)</td>
+<td>11</td>
+<td>75567</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Hooks, Erik (ID:895-P)</td>
+<td>33</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Hooks, Jr., David (ID:359-P)</td>
+<td>31</td>
+<td>36938</td>
+<td>54350</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Hughes, Michael (ID:579-P) *</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Hunter, Jereline (ID:1047-NP)</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Jackson, Robert (ID:484-P)</td>
+<td>7</td>
+<td>80590</td>
+<td>57124</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>James, Letitia (ID:480-P)</td>
+<td>35</td>
+<td>65026</td>
+<td>91564</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Jennings, Allan (ID:ER-NP)</td>
+<td>28</td>
+<td>32710</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Jimenez, Luis (ID:770-NP)</td>
+<td>21</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Johnson, Geoffrey (ID:J6-NP) *</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Johnson, Joyce (ID:768-P)</td>
+<td>8</td>
+<td>64853</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Jones, Stephen (ID:760-P) *</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Junior, Pamela (ID:742-P)</td>
+<td>41</td>
+<td>32976</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Kann, Jerry (ID:492-P)</td>
+<td>22</td>
+<td>5490</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Karako, Jak (ID:677-P)</td>
+<td>4</td>
+<td>40728</td>
+<td>100888</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Katz, Melinda (ID:264-NP)</td>
+<td>29</td>
+<td>723320</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Kaufman, Stephen (ID:859-P)</td>
+<td>13</td>
+<td>129142</td>
+<td>63528</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Kavanagh, Brian (ID:753-P)</td>
+<td>2</td>
+<td>114992</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Kinard, Stanley (ID:HP-P)</td>
+<td>41</td>
+<td>18175</td>
+<td>58700</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>King, Danny (ID:839-P)</td>
+<td>41</td>
+<td>22072</td>
+<td>39623</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>King, Erlene (ID:716-P)</td>
+<td>45</td>
+<td>27089</td>
+<td>68205</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Koppell, G. Oliver (ID:459-P)</td>
+<td>11</td>
+<td>102486</td>
+<td>103125</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Lacomba-Walker, Raquel (ID:1014-NP)</td>
+<td>20</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Lanza, Andrew (ID:546-P)</td>
+<td>51</td>
+<td>58315</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Lappin, Jessica (ID:805-P)</td>
+<td>5</td>
+<td>189483</td>
+<td>165000</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Lester, Jack (ID:810-P)</td>
+<td>4</td>
+<td>78463</td>
+<td>93763</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Liu, John (ID:FI-P)</td>
+<td>20</td>
+<td>230384</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Lobo, Renee (ID:473-P)</td>
+<td>24</td>
+<td>63040</td>
+<td>91164</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Lopez, Michael (ID:893-P) *</td>
+<td>2</td>
+<td>12780</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Lowery, Bernice (ID:877-NP) *</td>
+<td>28</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Luciano, Felipe (ID:472-P)</td>
+<td>8</td>
+<td>75573</td>
+<td>81280</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Madden, Mary (ID:1039-NP)</td>
+<td>46</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Mahadeo, Robby (ID:871-P)</td>
+<td>28</td>
+<td>24945</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Marcial, Edwin (ID:FQ-P)</td>
+<td>8</td>
+<td>12660</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Mark-Viverito, Melissa (ID:743-P)</td>
+<td>8</td>
+<td>88327</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Martinez, Israel (ID:F3-P) *</td>
+<td>18</td>
+<td>9314</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Martinez, Juan (ID:MJ-P) *</td>
+<td>34</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Martinez, Miguel (ID:223-NP)</td>
+<td>10</td>
+<td>183817</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Martinez, Mildred (ID:764-NP)</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>McClean, Lawrence (ID:57-P) *</td>
+<td>28</td>
+<td>555</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>McMahon, Michael (ID:271-P)</td>
+<td>49</td>
+<td>138823</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>McManus, Joseph (ID:841-P)</td>
+<td>13</td>
+<td>100355</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>McNally, Zenobia (ID:885-P)</td>
+<td>40</td>
+<td>23356</td>
+<td>59569</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Mealy, Darlene (ID:846-P)</td>
+<td>41</td>
+<td>113968</td>
+<td>120625</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Mendez, Rosie (ID:804-P)</td>
+<td>2</td>
+<td>108636</td>
+<td>123750</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Miller, David (ID:F8-P)</td>
+<td>41</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Mohamed, Ali (ID:780-NP)</td>
+<td>17</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Monserrate, Hiram (ID:272-P)</td>
+<td>21</td>
+<td>185352</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Montague, Virginia (ID:CB-P)</td>
+<td>9</td>
+<td>39223</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Muhammad, Naquan (ID:803-P)</td>
+<td>41</td>
+<td>11270</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Murphy, Patrick (ID:855-P)</td>
+<td>4</td>
+<td>252831</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Narine, Dhanpaul (ID:843-P)</td>
+<td>28</td>
+<td>19862</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Nath, Dilip (ID:820-P)</td>
+<td>24</td>
+<td>24867</td>
+<td>78276</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Nelson, Michael (ID:207-P)</td>
+<td>48</td>
+<td>99204</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Nocerino, Joseph (ID:837-P)</td>
+<td>29</td>
+<td>18736</td>
+<td>75042</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Nunez, Antonio (ID:1020-NP) *</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Oddo, James (ID:214-P)</td>
+<td>50</td>
+<td>75000</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Ortiz, Omar (ID:850-P) *</td>
+<td>16</td>
+<td>1645</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Palma, Annabel (ID:767-P)</td>
+<td>18</td>
+<td>92703</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Papajohn, Christopher (ID:866-P)</td>
+<td>2</td>
+<td>23480</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Peterson, Daniel (ID:1008-P) *</td>
+<td>2</td>
+<td>2200</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Powell, Adam (ID:CD-P) *</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Price, Edward (ID:725-P) *</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Pu-Folkes, Bryan (ID:823-P)</td>
+<td>25</td>
+<td>88460</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Quart, Dan (ID:710-P)</td>
+<td>5</td>
+<td>124549</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Quinn, Christine (ID:204-P)</td>
+<td>3</td>
+<td>274528</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Rahman, Masud (ID:881-P)</td>
+<td>25</td>
+<td>16787</td>
+<td>31339</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Recchia, Domenic (ID:LW-P)</td>
+<td>47</td>
+<td>140530</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Reyna, Diana (ID:452-P)</td>
+<td>34</td>
+<td>96227</td>
+<td>87920</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Rivera, George (ID:869-P)</td>
+<td>34</td>
+<td>20125</td>
+<td>75875</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Rivera, Joel (ID:361-P)</td>
+<td>15</td>
+<td>102686</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Rivera, William (ID:886-P) *</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Rodriguez, Edward (ID:714-P)</td>
+<td>38</td>
+<td>63640</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Rosario, Antonio (ID:875-P)</td>
+<td>14</td>
+<td>13005</td>
+<td>30860</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Roth, Michael (ID:819-P)</td>
+<td>48</td>
+<td>12270</td>
+<td>20392</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Rubin, George (ID:IE-NP)</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Ruiz, John (ID:842-P)</td>
+<td>8</td>
+<td>26695</td>
+<td>76556</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Russo, Pasqualino (ID:758-P)</td>
+<td>43</td>
+<td>118446</td>
+<td>82100</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Samad, Maryam (ID:863-P)</td>
+<td>41</td>
+<td>5765</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Sanders, Jr., James (ID:286-NP)</td>
+<td>31</td>
+<td>163484</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Santiago, Gladys (ID:847-P) *</td>
+<td>34</td>
+<td>3470</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Schlanger, Craig (ID:1003-P)</td>
+<td>51</td>
+<td>6772</td>
+<td>20248</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Seabrook, Larry (ID:G9-P)</td>
+<td>12</td>
+<td>42717</td>
+<td>71000</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Sears, Helen (ID:SH-P)</td>
+<td>25</td>
+<td>139917</td>
+<td>103332</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Sementilli, Egidio (ID:IZ-P)</td>
+<td>13</td>
+<td>9360</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Serrano, Peter (ID:824-NP) *</td>
+<td>17</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Simon, Jo Anne (ID:818-NP) *</td>
+<td>33</td>
+<td>14975</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Sklar, Robyn (ID:868-P)</td>
+<td>26</td>
+<td>10399</td>
+<td>33252</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Spitz, George (ID:Y3-P)</td>
+<td>5</td>
+<td>27192</td>
+<td>33376</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Stern, Steven (ID:1052-NP)</td>
+<td>15</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Stewart, Kendall (ID:CP-P)</td>
+<td>45</td>
+<td>88110</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Stuart, Scott (ID:856-NP) *</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Taitt, Samuel (ID:490-P)</td>
+<td>45</td>
+<td>44207</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Tapper, Marlene (ID:861-P)</td>
+<td>21</td>
+<td>35033</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Taylor, Richard (ID:EK-NP)</td>
+<td>36</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Titus, Norman (ID:1021-NP) *</td>
+<td>45</td>
+<td>9650</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Torres, George (ID:826-NP) *</td>
+<td>17</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Tsabar, Gur (ID:807-P)</td>
+<td>2</td>
+<td>79407</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Vacca, James (ID:821-P)</td>
+<td>13</td>
+<td>177549</td>
+<td>165000</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Vallone, Jr., Peter (ID:240-P)</td>
+<td>22</td>
+<td>186110</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Vann, Albert (ID:202-P)</td>
+<td>36</td>
+<td>23458</td>
+<td>15200</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Vargas, Ruben Dario (ID:DP-NP)</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Vazquez-Hernandez, Viviana (ID:1001-P)</td>
+<td>38</td>
+<td>7635</td>
+<td>22780</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Velazquez Bennett, Yvette (ID:903-P)</td>
+<td>39</td>
+<td>2720</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Watts, Gwendolyn (ID:874-P) *</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Weir, Elias (ID:551-P)</td>
+<td>46</td>
+<td>3135</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Weprin, David (ID:232-P)</td>
+<td>23</td>
+<td>514591</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>White, Jr., Thomas (ID:HI-P)</td>
+<td>28</td>
+<td>120822</td>
+<td>87794</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Whitehead, John (ID:802-P)</td>
+<td>42</td>
+<td>11540</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Yablon, Joshua (ID:729-P)</td>
+<td>6</td>
+<td>16570</td>
+<td>38816</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Yassky, David (ID:280-P)</td>
+<td>33</td>
+<td>565083</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Young, Joseph (ID:636-P) *</td>
+<td>41</td>
+<td>2285</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Zinberg, Joel (ID:858-P)</td>
+<td>5</td>
+<td>101553</td>
+<td>82500</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Adams, Kenneth (ID:815-NP) *</td>
+<td>()</td>
+<td>47186</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Johnston, John (ID:801-NP) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Katz, Sarah (ID:1030-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Nicolas, Samuel (ID:817-NP) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Reed, Philip (ID:DC-NP) *</td>
+<td>()</td>
+<td>105220</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Swietnicki, Edward (ID:1007-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>Zuckerman, Bob (ID:813-NP) *</td>
+<td>()</td>
+<td>12977</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Adames, Jose (ID:791-NP) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Avella, Tony (ID:51-P)</td>
+<td>()</td>
+<td>295947.27</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Blakeman, Bruce (ID:1260-UN) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Bloomberg, Michael (ID:605-NP)</td>
+<td>()</td>
+<td>108375000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Burck, Robert (ID:1466-NP) *</td>
+<td>()</td>
+<td>10114.75</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Catsimatidis, John (ID:1264-NP) *</td>
+<td>()</td>
+<td>296679.2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Christopher, Stephen (ID:1415-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Chusid, Alan (ID:1471-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Coenen, Kevin (ID:1286-P) *</td>
+<td>()</td>
+<td>621.8</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Dobrian, Joseph (ID:1062-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Eiland, Tyrrell (ID:1266-P)</td>
+<td>()</td>
+<td>9509</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Fein, Daniel (ID:1028-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Finan, John (ID:1328-P)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Iwachiw, Walter (ID:494-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Lee, He (ID:1418-NP) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>McMillan, Jimmy (ID:D4-P)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Miller, Lloyd (ID:1467-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rogers, Roland (ID:HM-NP)</td>
+<td>()</td>
+<td>5933</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ruano-Melendez, Eric (ID:BF-NP) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Talen, Billy (ID:1317-P)</td>
+<td>()</td>
+<td>47153</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Thompson, Jr., William (ID:260-P)</td>
+<td>()</td>
+<td>4644024.44</td>
+<td>3265062</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Villar, Francisca (ID:1468-NP)</td>
+<td>()</td>
+<td>10527.36</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>de Blasio, Bill (ID:326-P)</td>
+<td>()</td>
+<td>1947236.7</td>
+<td>2246941</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>DeLuca, Maura (ID:1420-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gioia, Eric (ID:418-P)</td>
+<td>()</td>
+<td>2151462.56</td>
+<td>1705890</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Green, Mark (ID:A7-P)</td>
+<td>()</td>
+<td>762755.16</td>
+<td>1198290</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Lesczynski, James (ID:424-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Siegel, Norman (ID:310-P)</td>
+<td>()</td>
+<td>303105.36</td>
+<td>820044</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Syed, Imtiaz (ID:1340-P)</td>
+<td>()</td>
+<td>45450</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Vernuccio, Jr., Frank (ID:1416-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Wacker, Hal (ID:1409-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Zablocki, Alex (ID:1243-P)</td>
+<td>()</td>
+<td>19797.97</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Brennan, James (ID:798-UN) *</td>
+<td>()</td>
+<td>419494</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Carrion, Jr., Adolfo (ID:ED-UN) *</td>
+<td>()</td>
+<td>2297705</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Clifton, John (ID:1065-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ejaz, Salim (ID:1341-P)</td>
+<td>()</td>
+<td>58944.89</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Katz, Melinda (ID:264-P)</td>
+<td>()</td>
+<td>2540600.64</td>
+<td>758410</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Liu, John (ID:FI-P)</td>
+<td>()</td>
+<td>3599053.96</td>
+<td>1355065</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Maio, Danniel (ID:416-UN) *</td>
+<td>()</td>
+<td>175</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Mendola, Joseph (ID:1323-P)</td>
+<td>()</td>
+<td>21754.07</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Fabricant, Mollena (ID:1854-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Weprin, David (ID:232-P)</td>
+<td>()</td>
+<td>1822437.82</td>
+<td>928771</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Yassky, David (ID:280-P)</td>
+<td>()</td>
+<td>2506694.85</td>
+<td>2242515</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Baumann, Tom (ID:1421-NP)</td>
+<td>(M)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Casavis, David (ID:1372-P)</td>
+<td>(M)</td>
+<td>4948.61</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Diaz, Jr., Ruben (ID:1160-P)</td>
+<td>(Bx)</td>
+<td>171387.88</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>D'Ottavio, Marc (ID:1408-P)</td>
+<td>(Bk)</td>
+<td>5368</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Graham, Yvonne (ID:1242-UN) *</td>
+<td>(Bk)</td>
+<td>63210</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hornak, Robert (ID:1094-P)</td>
+<td>(Q)</td>
+<td>28963</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Leavitt, Marc (ID:1352-P)</td>
+<td>(Q)</td>
+<td>101556</td>
+<td>310722</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Luisi, John (ID:857-P)</td>
+<td>(SI)</td>
+<td>56789.35</td>
+<td>244689</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Markowitz, Marty (ID:226-P)</td>
+<td>(Bk)</td>
+<td>1326736</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Marshall, Helen (ID:E9-P)</td>
+<td>(Q)</td>
+<td>133946</td>
+<td>341128</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Molinaro, James (ID:419-P)</td>
+<td>(SI)</td>
+<td>256570.16</td>
+<td>667500</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Myrick, Eugene (ID:1383-P) *</td>
+<td>(Bk)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Schwartz, Robert (ID:1326-P)</td>
+<td>(Q)</td>
+<td>45380.5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Stringer, Scott (ID:148-P)</td>
+<td>(M)</td>
+<td>1645444.78</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Wyne, Jamshad (ID:1305-NP) *</td>
+<td>(SI)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Abraham, Isaac (ID:1231-P)</td>
+<td>33</td>
+<td>54769</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Arroyo, Maria (ID:838-P)</td>
+<td>17</td>
+<td>210088.2</td>
+<td>42932</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Baer, Kenneth (ID:1206-P)</td>
+<td>33</td>
+<td>28348.95</td>
+<td>80646</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Baez, Maria (ID:591-P)</td>
+<td>14</td>
+<td>79775</td>
+<td>70170</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Balberg, Stuart (ID:1450-NP)</td>
+<td>35</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Barron, Charles (ID:DD-P)</td>
+<td>42</td>
+<td>15923</td>
+<td>38700</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Behar, Steven Anthony (ID:60-P)</td>
+<td>19</td>
+<td>31838</td>
+<td>98557</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Belsky, Simon (ID:1315-P) *</td>
+<td>48</td>
+<td>9055</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Berardelli, Gene (ID:1404-P)</td>
+<td>46</td>
+<td>2644.66</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Berkley, Carlton (ID:1273-P)</td>
+<td>9</td>
+<td>11300.79</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Bernace, Victor (ID:560-P)</td>
+<td>7</td>
+<td>17158.33</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Biviano, Douglas (ID:1345-P)</td>
+<td>33</td>
+<td>28893.19</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Borukhov, Aron (ID:1392-P) *</td>
+<td>29</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Boyland, Tracy (ID:HQ-P)</td>
+<td>41</td>
+<td>41592.77</td>
+<td>53642</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Brewer, Gale (ID:399-P)</td>
+<td>6</td>
+<td>87957.64</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Bristol, Carlos (ID:1162-P)</td>
+<td>42</td>
+<td>12592.2</td>
+<td>41160</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Brown, Melvin (ID:1371-P)</td>
+<td>37</td>
+<td>659.97</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Burns, Richard (ID:1412-NP)</td>
+<td>23</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Burton III, Arthur (ID:827-P) *</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Cabrera, Fernando (ID:1256-P)</td>
+<td>14</td>
+<td>78953.51</td>
+<td>90318</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Capano, Robert (ID:709-P)</td>
+<td>43</td>
+<td>45042.73</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Carrington, William (ID:1293-P)</td>
+<td>36</td>
+<td>8205.71</td>
+<td>33300</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Cassino, Anthony (ID:1171-P)</td>
+<td>11</td>
+<td>112655.31</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Castellanos, Francesca (ID:DT-P)</td>
+<td>10</td>
+<td>14150</td>
+<td>75240</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Cedano, Lenny (ID:1356-P) *</td>
+<td>10</td>
+<td>100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ceder, David (ID:891-UN) *</td>
+<td>50</td>
+<td>2520</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Chain, Heidi (ID:1258-NP)</td>
+<td>29</td>
+<td>266120.3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Chandra, Ashok (ID:1285-P)</td>
+<td>4</td>
+<td>63906</td>
+<td>84732</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Chin, Margaret (ID:98-P)</td>
+<td>1</td>
+<td>174862.88</td>
+<td>110688</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Choe, John (ID:1376-P)</td>
+<td>20</td>
+<td>108965.24</td>
+<td>107333</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Chou, Evergreen (ID:235-P)</td>
+<td>20</td>
+<td>3051.58</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Chou, Yen (ID:1280-NP)</td>
+<td>20</td>
+<td>528882.67</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Claxton, Marquez (ID:1229-P)</td>
+<td>31</td>
+<td>29393</td>
+<td>83478</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Clifton, Terry (ID:1417-P) *</td>
+<td>41</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Cohen, Albert (ID:1394-P)</td>
+<td>29</td>
+<td>35745.93</td>
+<td>106795</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Cohen, Michael (ID:1196-P)</td>
+<td>29</td>
+<td>41640.85</td>
+<td>80328</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Como, Anthony (ID:1198-UN) *</td>
+<td>30</td>
+<td>175</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Comrie, Leroy (ID:420-P)</td>
+<td>27</td>
+<td>178769.11</td>
+<td>88330</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Constantinides, Costa (ID:1188-NP) *</td>
+<td>22</td>
+<td>9853</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Cooke, Thomas (ID:1297-P)</td>
+<td>19</td>
+<td>30125</td>
+<td>71157</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Cooper, Bryan (ID:1428-NP)</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Cornegy, Jr., Robert (ID:1267-P)</td>
+<td>36</td>
+<td>26702.26</td>
+<td>87060</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Crowley, Elizabeth (ID:530-P)</td>
+<td>30</td>
+<td>94716.63</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Dais, Landon (ID:1333-P)</td>
+<td>9</td>
+<td>21888</td>
+<td>58260</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>D'Alessio, Neal (ID:1369-P)</td>
+<td>4</td>
+<td>7199.71</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Daley, Rodrick (ID:1237-P) *</td>
+<td>45</td>
+<td>10226</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Davila, Maritza (ID:1283-P)</td>
+<td>34</td>
+<td>118691.8</td>
+<td>177100</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>DeLay, Robert (ID:1191-UN) *</td>
+<td>29</td>
+<td>1645</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Diamondstone, Kenneth (ID:449-P)</td>
+<td>33</td>
+<td>65980</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Diaz, Darma (ID:1331-P) *</td>
+<td>37</td>
+<td>12222.11</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>DiBrienza, Stephen (ID:C4-UN) *</td>
+<td>39</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Dickens, Inez (ID:867-P)</td>
+<td>9</td>
+<td>154653</td>
+<td>110688</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>DiGangi, Angelo (ID:1170-UN) *</td>
+<td>30</td>
+<td>12558</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Dilan, Erik (ID:444-P)</td>
+<td>37</td>
+<td>55575</td>
+<td>20794</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Donohue, John (ID:1387-P) *</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Dooley, Tom (ID:1410-P) *</td>
+<td>22</td>
+<td>100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Dromm, Daniel (ID:1075-P)</td>
+<td>25</td>
+<td>147530.96</td>
+<td>129471</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Duncan, Michael (ID:1238-P)</td>
+<td>31</td>
+<td>33852</td>
+<td>74830</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Duran, Esteban (ID:1236-UN) *</td>
+<td>34</td>
+<td>3560</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Emmanuel, Ernest (ID:E5-NP)</td>
+<td>45</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Enriquez, Javier (ID:1400-P) *</td>
+<td>33</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Erazo, Juan (ID:1339-P) *</td>
+<td>7</td>
+<td>5840</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Escoffery-Bey, Mark (ID:1324-P)</td>
+<td>16</td>
+<td>12668.37</td>
+<td>41906</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Esposito, Gerald (ID:1193-P)</td>
+<td>34</td>
+<td>99100.59</td>
+<td>85195</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Estiphanos, Medhanie (ID:1350-P)</td>
+<td>35</td>
+<td>5982.47</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Eugene, Mathieu (ID:1086-P)</td>
+<td>40</td>
+<td>46200</td>
+<td>109742</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Facundo, Luis (ID:1347-NP)</td>
+<td>10</td>
+<td>18854.47</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Feerick, Deirdre (ID:1180-P)</td>
+<td>26</td>
+<td>84305</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Felder, Simcha (ID:313-NP)</td>
+<td>44</td>
+<td>183160</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ferreras, Julissa (ID:1235-P)</td>
+<td>21</td>
+<td>62122</td>
+<td>72480</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Fidler, Lewis (ID:527-P)</td>
+<td>46</td>
+<td>87122</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Flores-Vazquez, Martha (ID:234-P) *</td>
+<td>20</td>
+<td>5678</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ford, Lydia (ID:1395-P) *</td>
+<td>45</td>
+<td>5070</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Forman, Anthony (ID:1370-P) *</td>
+<td>42</td>
+<td>700</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Foster, Helen Diane (ID:325-P)</td>
+<td>16</td>
+<td>105730.62</td>
+<td>93110</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Fouratt, Jim (ID:1411-P) *</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Fraser, Aaron (ID:1274-NP) *</td>
+<td>36</td>
+<td>1623.8</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Freeman Saulsberre, Michael (ID:1391-NP)</td>
+<td>37</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Friedrich, Robert (ID:1169-P)</td>
+<td>23</td>
+<td>56843</td>
+<td>161725</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gagarin, Melquiades (ID:1249-P)</td>
+<td>29</td>
+<td>16369.46</td>
+<td>43185</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Galarza, David (ID:851-UN) *</td>
+<td>38</td>
+<td>20116.27</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Garodnick, Daniel (ID:721-P)</td>
+<td>4</td>
+<td>603505.95</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gennaro, James (ID:283-P)</td>
+<td>24</td>
+<td>67016</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gentile, Vincent (ID:717-P)</td>
+<td>43</td>
+<td>158503.19</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gerson, Alan (ID:268-P)</td>
+<td>1</td>
+<td>91575.77</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gibbs, Edward (ID:878-P) *</td>
+<td>8</td>
+<td>2775</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Giraldo, Jose Eduardo (ID:1265-P)</td>
+<td>21</td>
+<td>29444</td>
+<td>87960</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gleason, Peter (ID:763-P)</td>
+<td>1</td>
+<td>43568.75</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Goff, Johnnie (ID:1402-P) *</td>
+<td>12</td>
+<td>2244</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Goldberg, Joshua (ID:1430-NP)</td>
+<td>6</td>
+<td>6272</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Golub, Jay (ID:503-P) *</td>
+<td>29</td>
+<td>100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gonzalez, Sara (ID:711-P)</td>
+<td>38</td>
+<td>114676</td>
+<td>110688</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Goodwin, Gwen (ID:1009-P)</td>
+<td>8</td>
+<td>3926</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gorman, Jerwaine (ID:1219-UN) *</td>
+<td>31</td>
+<td>5540</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gowda, Rajiv (ID:1225-P)</td>
+<td>49</td>
+<td>36484.26</td>
+<td>78654</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Grant, John (ID:1308-P) *</td>
+<td>40</td>
+<td>3071</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gravagna, Joseph (ID:1234-UN) *</td>
+<td>19</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Grays, Lou (ID:1380-NP)</td>
+<td>31</td>
+<td>8381.01</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gregory, Arthur (ID:1396-P)</td>
+<td>1</td>
+<td>9307.5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Griffith, Mark (ID:1202-P)</td>
+<td>36</td>
+<td>103559.63</td>
+<td>173894</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Grinage, David (ID:1154-P)</td>
+<td>36</td>
+<td>36845.04</td>
+<td>84122</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gulluscio, Frank (ID:1158-P)</td>
+<td>32</td>
+<td>63597.3</td>
+<td>88320</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hackshaw, Rock (ID:405-P)</td>
+<td>40</td>
+<td>16556</td>
+<td>77136</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Halloran, Daniel (ID:1309-P)</td>
+<td>19</td>
+<td>63236.71</td>
+<td>102568</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Harris, Richard (ID:1174-UN) *</td>
+<td>24</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hayes, Adrienne (ID:1200-P) *</td>
+<td>27</td>
+<td>16075</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Herbert, Anthony (ID:738-P)</td>
+<td>41</td>
+<td>10330</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Heyer, II, John (ID:1224-P)</td>
+<td>39</td>
+<td>80380</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hinds, Terry (ID:1161-UN) *</td>
+<td>45</td>
+<td>9475</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hobson, Janelle (ID:1299-P) *</td>
+<td>41</td>
+<td>5049.05</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hogan, Robert (ID:1367-P)</td>
+<td>28</td>
+<td>4940</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hooks, Jr., David (ID:359-NP) *</td>
+<td>31</td>
+<td>1854.26</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hopkins, Martin (ID:1306-P) *</td>
+<td>43</td>
+<td>750</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Horvath, Irene (ID:1427-NP)</td>
+<td>1</td>
+<td>100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Howard, Chris (ID:1397-P) *</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hunley-Adossa, Delia (ID:1325-P)</td>
+<td>35</td>
+<td>49887.92</td>
+<td>76890</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Hunter, Robert (ID:KN-P)</td>
+<td>36</td>
+<td>10072</td>
+<td>44118</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Iannece, Jerry (ID:DE-P)</td>
+<td>19</td>
+<td>122772.74</td>
+<td>107333</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ighile, Osaretin (ID:1389-P) *</td>
+<td>35</td>
+<td>1918.38</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Iglesias, Robinson (ID:1344-P)</td>
+<td>38</td>
+<td>6974</td>
+<td>39402</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ignizio, Vincent (ID:1078-P)</td>
+<td>51</td>
+<td>74322.77</td>
+<td>88450</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Jackson, Robert (ID:484-P)</td>
+<td>7</td>
+<td>87467</td>
+<td>107325</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>James, Letitia (ID:480-P)</td>
+<td>35</td>
+<td>57286</td>
+<td>110688</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Jennings, Allan (ID:ER-NP)</td>
+<td>28</td>
+<td>10485</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Jerez, Felix (ID:1332-P) *</td>
+<td>7</td>
+<td>4560.57</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Johnson, Ayo (ID:1254-P) *</td>
+<td>46</td>
+<td>8632.21</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Johnson, Daryl (ID:1279-P) *</td>
+<td>16</td>
+<td>7944.46</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Johnson, Marcus (ID:1218-UN) *</td>
+<td>12</td>
+<td>7.38</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Jones, Carolyn (ID:1288-UN) *</td>
+<td>16</td>
+<td>2546</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Jones, Saquan (ID:1262-P)</td>
+<td>36</td>
+<td>14340</td>
+<td>57875</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Jones, Stephen (ID:760-P)</td>
+<td>28</td>
+<td>3596</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Jung, S.J. (ID:1337-P)</td>
+<td>20</td>
+<td>145513.99</td>
+<td>107333</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kalathara, Stanley (ID:1248-NP)</td>
+<td>25</td>
+<td>127587</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kallos, Benjamin (ID:1301-UN) *</td>
+<td>5</td>
+<td>11224</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kann, Jerry (ID:492-P)</td>
+<td>22</td>
+<td>467.93</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kaufman, Stephen (ID:1399-P)</td>
+<td>5</td>
+<td>3048.51</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kavadas, Constantine (ID:1195-NP) *</td>
+<td>20</td>
+<td>50865</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Key, Winchester (ID:1360-P)</td>
+<td>42</td>
+<td>22591.7</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kim, Kevin (ID:1322-NP)</td>
+<td>19</td>
+<td>517029.51</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kim, PJ (ID:1373-P)</td>
+<td>1</td>
+<td>107302</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kim, Ronald (ID:1368-P) *</td>
+<td>20</td>
+<td>22428.39</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kinard, Tulani (ID:1278-P)</td>
+<td>41</td>
+<td>30477</td>
+<td>76716</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>King, Andy (ID:1185-P)</td>
+<td>12</td>
+<td>33075.59</td>
+<td>79730</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>King, Erlene (ID:716-P)</td>
+<td>45</td>
+<td>20172.75</td>
+<td>84122</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Koo, Peter (ID:1359-NP)</td>
+<td>20</td>
+<td>421425</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Koppell, G. Oliver (ID:459-P)</td>
+<td>11</td>
+<td>127363.72</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Koslowitz, Karen (ID:GS-P)</td>
+<td>29</td>
+<td>107253.63</td>
+<td>185855</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kuhn, Timothy (ID:1413-P)</td>
+<td>49</td>
+<td>5617.97</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kurland, Yetta (ID:1240-P)</td>
+<td>3</td>
+<td>98891.42</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Lander, Brad (ID:1164-P)</td>
+<td>39</td>
+<td>121623.14</td>
+<td>177100</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Landesman, Dodge (ID:1302-P) *</td>
+<td>2</td>
+<td>13132</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Lantigua, Manuel (ID:1316-P)</td>
+<td>7</td>
+<td>23434.81</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Lappin, Jessica (ID:805-P)</td>
+<td>5</td>
+<td>403016.06</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Lasher, Micah (ID:1244-UN) *</td>
+<td>6</td>
+<td>8280</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Leandre, Jacques (ID:1246-P)</td>
+<td>31</td>
+<td>35762.98</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Leroy, Mireille (ID:1310-P) *</td>
+<td>28</td>
+<td>9642.01</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Levin, Stephen (ID:1204-P)</td>
+<td>33</td>
+<td>96248</td>
+<td>110688</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Lewis, Frederick (ID:1097-P)</td>
+<td>31</td>
+<td>14444.45</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Lewis, Prince (ID:574-P)</td>
+<td>42</td>
+<td>23709</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Linares, Guillermo (ID:AZ-P) *</td>
+<td>10</td>
+<td>53565.95</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Maragos, Angelo (ID:1390-P)</td>
+<td>26</td>
+<td>36876</td>
+<td>81060</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Marco, Priscilla (ID:1177-UN) *</td>
+<td>49</td>
+<td>9159</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Markell, Debra (ID:DJ-P)</td>
+<td>19</td>
+<td>41930.59</td>
+<td>96999</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Mark-Viverito, Melissa (ID:743-P)</td>
+<td>8</td>
+<td>80348</td>
+<td>88275</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Martellaro, Charles (ID:1393-P) *</td>
+<td>25</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Marthone, Joseph (ID:1298-P) *</td>
+<td>28</td>
+<td>190.66</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Martinez, Juan (ID:MJ-NP) *</td>
+<td>34</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Martinez, Miguel (ID:223-NP) *</td>
+<td>10</td>
+<td>55912</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Mascetti, Michael (ID:1210-UN) *</td>
+<td>30</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Masson, Fred (ID:1398-P)</td>
+<td>7</td>
+<td>9400</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Materna, Janine (ID:1366-P)</td>
+<td>51</td>
+<td>54114.79</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>McKenzie, Dexter (ID:1261-P)</td>
+<td>45</td>
+<td>50430</td>
+<td>73216</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>McLaughlin, Shaun (ID:1406-NP)</td>
+<td>27</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Mealy, Darlene (ID:846-P)</td>
+<td>41</td>
+<td>51811</td>
+<td>86435</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Mendez, Rosie (ID:804-P)</td>
+<td>2</td>
+<td>68636.76</td>
+<td>44276</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Mitchell, Kenneth (ID:1166-P)</td>
+<td>49</td>
+<td>112306</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Mobley, Connis (ID:1382-P) *</td>
+<td>47</td>
+<td>1868.79</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Morik, Helen (ID:1214-UN) *</td>
+<td>11</td>
+<td>41323.41</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Moses, Adrianne (ID:1199-UN) *</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Murray, Scherie (ID:1353-P)</td>
+<td>31</td>
+<td>1595.88</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Nardiello, Joseph (ID:1414-P)</td>
+<td>39</td>
+<td>19350</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Nath, Dilip (ID:820-UN) *</td>
+<td>24</td>
+<td>6429</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Nelson, Michael (ID:207-P)</td>
+<td>48</td>
+<td>55042.25</td>
+<td>22138</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Nelson, Zena (ID:1230-UN) *</td>
+<td>16</td>
+<td>685</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Nestler, Walter (ID:1342-P)</td>
+<td>18</td>
+<td>12059.65</td>
+<td>38700</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Nocerino, Joseph (ID:837-NP) *</td>
+<td>29</td>
+<td>3515</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Nunes, Lynn (ID:1192-P)</td>
+<td>28</td>
+<td>36960</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Nunez, Yorman (ID:1327-P) *</td>
+<td>14</td>
+<td>34636.2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Oddo, James (ID:214-P)</td>
+<td>50</td>
+<td>72362</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ognibene, Thomas (ID:GT-P)</td>
+<td>30</td>
+<td>70922</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>O'Leary, Brent (ID:1247-P)</td>
+<td>26</td>
+<td>50536.61</td>
+<td>58908</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Padilla, Jr., Jose (ID:379-P) *</td>
+<td>15</td>
+<td>1172.17</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Pagan, Juan (ID:1405-P)</td>
+<td>2</td>
+<td>919.9</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Palma, Annabel (ID:767-P)</td>
+<td>18</td>
+<td>53238</td>
+<td>22138</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Passannante-Derr, Maria (ID:1216-P)</td>
+<td>3</td>
+<td>71560.13</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Pechefsky, David (ID:1334-P)</td>
+<td>39</td>
+<td>17289.41</td>
+<td>53160</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Phillips, Hal (ID:1269-UN) *</td>
+<td>26</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Pocchia, James (ID:1212-P)</td>
+<td>50</td>
+<td>41570.61</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Polanco, Yesenia (ID:1287-P) *</td>
+<td>14</td>
+<td>14929.6</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Powell, Regina (ID:1364-P)</td>
+<td>42</td>
+<td>5276.88</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Quattlebaum, Algernon (ID:1221-NP) *</td>
+<td>12</td>
+<td>600</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Quinn, Christine (ID:204-P)</td>
+<td>3</td>
+<td>210158.44</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rahman, Mujib (ID:1255-P)</td>
+<td>25</td>
+<td>18387.94</td>
+<td>39120</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ramirez, Hector (ID:1241-NP) *</td>
+<td>14</td>
+<td>8720</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Realmuto, Richard (ID:1263-P)</td>
+<td>10</td>
+<td>6957.81</td>
+<td>38670</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Recchia, Domenic (ID:LW-P)</td>
+<td>47</td>
+<td>99522</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Reilly, Gary (ID:1203-P)</td>
+<td>39</td>
+<td>28621.25</td>
+<td>44550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Reyna, Diana (ID:452-P)</td>
+<td>34</td>
+<td>117698.67</td>
+<td>172880</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rice, Jerome (ID:1232-P)</td>
+<td>12</td>
+<td>12684.04</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Richards, Donovan (ID:1190-UN) *</td>
+<td>31</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rivera, Bryan (ID:1211-UN) *</td>
+<td>23</td>
+<td>7025</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rivera, Haile (ID:1182-UN) *</td>
+<td>14</td>
+<td>1760</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rivera, Joel (ID:1290-UN) *</td>
+<td>16</td>
+<td>5175</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rivera, Joel (ID:361-P)</td>
+<td>15</td>
+<td>26343.65</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rodriguez, Robert (ID:1343-P)</td>
+<td>8</td>
+<td>90695.32</td>
+<td>68562</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rodriguez, Ydanis (ID:353-P)</td>
+<td>10</td>
+<td>130352.54</td>
+<td>152696</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rogers, Abbi (ID:1386-P)</td>
+<td>9</td>
+<td>147.04</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rosado, Edward (ID:1272-P) *</td>
+<td>37</td>
+<td>409.92</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rosasco, David (ID:1215-P)</td>
+<td>26</td>
+<td>12022.52</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rose, Deborah (ID:292-P)</td>
+<td>49</td>
+<td>129544</td>
+<td>177050</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sacerdote, Derek (ID:1385-P)</td>
+<td>46</td>
+<td>3229</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sanders, Andrea (ID:1213-UN) *</td>
+<td>31</td>
+<td>5186.31</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sanders, Jr., James (ID:286-P)</td>
+<td>31</td>
+<td>77773</td>
+<td>21888</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Santana, Miguel (ID:1304-P) *</td>
+<td>14</td>
+<td>10400</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Santiago, Gladys (ID:847-P) *</td>
+<td>34</td>
+<td>6542</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Santiago, Thomas (ID:981-NP)</td>
+<td>8</td>
+<td>16978.28</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sarete, Cleofis (ID:1181-P)</td>
+<td>10</td>
+<td>11487.17</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sarrabo, Roger (ID:1477-NP)</td>
+<td>39</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sasson, Alan (ID:1205-P) *</td>
+<td>46</td>
+<td>7712</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sasson, Isaac (ID:732-P)</td>
+<td>20</td>
+<td>86749</td>
+<td>107333</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Saunders, Shirley (ID:EF-P) *</td>
+<td>12</td>
+<td>5105</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Scavo, Theresa (ID:1307-UN) *</td>
+<td>48</td>
+<td>34790</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Schulman, Lynn (ID:433-P)</td>
+<td>29</td>
+<td>92909.5</td>
+<td>157865</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Seabrook, Larry (ID:G9-P)</td>
+<td>12</td>
+<td>39354.99</td>
+<td>105092</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sears, Helen (ID:SH-P)</td>
+<td>25</td>
+<td>140101.89</td>
+<td>107333</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Selch, Joseph (ID:1403-P) *</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Serpe, Lynne (ID:1378-P)</td>
+<td>22</td>
+<td>21789.78</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Serrano, Krystal (ID:1320-P) *</td>
+<td>12</td>
+<td>4825.57</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sewell, Jamin (ID:1168-UN) *</td>
+<td>11</td>
+<td>15905.55</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sierra, Carlos (ID:1271-P)</td>
+<td>16</td>
+<td>32521.66</td>
+<td>70890</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Simon, Jo Anne (ID:818-P)</td>
+<td>33</td>
+<td>121282.92</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Simpson, Nicholas (ID:1329-P) *</td>
+<td>9</td>
+<td>375</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Singh, Swaranjit (ID:1222-P)</td>
+<td>23</td>
+<td>105952</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Skaller, Josh (ID:1179-P)</td>
+<td>39</td>
+<td>110878.93</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Smith, George (ID:1407-P)</td>
+<td>39</td>
+<td>3852.1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Solomon, Calvin (ID:1351-P)</td>
+<td>8</td>
+<td>16007.22</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Spies, Francisco (ID:JB-P)</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Stewart, Kendall (ID:CP-P)</td>
+<td>45</td>
+<td>81190</td>
+<td>136940</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Straker, Adrian (ID:1311-P)</td>
+<td>36</td>
+<td>7176.97</td>
+<td>35550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Taitt, Samuel (ID:490-P)</td>
+<td>45</td>
+<td>48022.52</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Tajiddin, Julius (ID:1474-NP)</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Tapia, Yudelka (ID:619-P)</td>
+<td>14</td>
+<td>40919.56</td>
+<td>78828</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Thies, Evan (ID:1175-P)</td>
+<td>33</td>
+<td>78704.46</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Toney, Vaughan (ID:168-UN) *</td>
+<td>45</td>
+<td>7140</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Toussaint, Jimmy (ID:1312-P) *</td>
+<td>45</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>True, Cynthia (ID:1348-UN) *</td>
+<td>38</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Tulloch, Leithland (ID:1079-P)</td>
+<td>40</td>
+<td>18805</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ulanga, Sebastian (ID:1189-P) *</td>
+<td>12</td>
+<td>6525</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ulrich, Eric (ID:1068-P)</td>
+<td>32</td>
+<td>71630</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Vacca, James (ID:821-P)</td>
+<td>13</td>
+<td>295055</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Vallone, Jr., Peter (ID:240-P)</td>
+<td>22</td>
+<td>145405</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Vallone, Paul (ID:1176-P)</td>
+<td>19</td>
+<td>169210.95</td>
+<td>106733</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Van Bramer, James (ID:337-P)</td>
+<td>26</td>
+<td>124289.09</td>
+<td>172672</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Vanel, Clyde (ID:1282-P)</td>
+<td>27</td>
+<td>22798.24</td>
+<td>70050</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Vann, Albert (ID:202-P)</td>
+<td>36</td>
+<td>101416</td>
+<td>168505</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Vargas, Ruben Dario (ID:DP-P)</td>
+<td>10</td>
+<td>12190</td>
+<td>56310</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Velazquez, Manny (ID:1226-P)</td>
+<td>10</td>
+<td>33359.43</td>
+<td>55200</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Walters, Stephen (ID:642-NP)</td>
+<td>48</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Washington, Monique (ID:1361-P) *</td>
+<td>7</td>
+<td>1377.39</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Washington, Paul (ID:1156-UN) *</td>
+<td>42</td>
+<td>6076</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Weir, Elias (ID:551-P) *</td>
+<td>46</td>
+<td>1865</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Weprin, Mark (ID:1335-P)</td>
+<td>23</td>
+<td>142670</td>
+<td>177100</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>White, Jr., Thomas (ID:HI-P)</td>
+<td>28</td>
+<td>88825</td>
+<td>119576</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Williams, Godwin (ID:1422-NP) *</td>
+<td>45</td>
+<td>12000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Williams, John (ID:1336-NP) *</td>
+<td>45</td>
+<td>770</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Williams, Jumaane (ID:1227-P)</td>
+<td>45</td>
+<td>96274.37</td>
+<td>154740</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Wills, Ruben (ID:1374-P)</td>
+<td>28</td>
+<td>35927</td>
+<td>139818</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Wright, Tremaine (ID:1313-P)</td>
+<td>36</td>
+<td>14886.72</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Wu, James (ID:1295-P)</td>
+<td>20</td>
+<td>112663.36</td>
+<td>101966</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Zayas, Evette (ID:1379-P) *</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Zorrilla, Oscar (ID:1388-P) *</td>
+<td>15</td>
+<td>5277.84</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Zuckerman, Bob (ID:813-P)</td>
+<td>39</td>
+<td>99842.22</td>
+<td>88550</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Adams, Kenneth (ID:815-UN) *</td>
+<td>()</td>
+<td>47136</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Adornato, Jennifer (ID:1464-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Avrick, Stuart (ID:1401-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Batista, Raquel (ID:1208-UN) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Briones, Jose (ID:1270-UN) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Castro, Nelson (ID:1186-UN) *</td>
+<td>()</td>
+<td>2840</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Farrell, Jr., Herman (ID:1184-UN) *</td>
+<td>()</td>
+<td>76105</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Fulani, Lenora (ID:FR-UN) *</td>
+<td>()</td>
+<td>10225</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gianaris, Michael (ID:1239-UN) *</td>
+<td>()</td>
+<td>94657.19</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Gotbaum, Betsy (ID:263-UN) *</td>
+<td>()</td>
+<td>166415</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Kerpen, Dave (ID:1167-NP) *</td>
+<td>()</td>
+<td>32070</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Lee, William (ID:1463-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Letellier, Yonel (ID:1153-NP) *</td>
+<td>()</td>
+<td>11133</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Levine, Mark (ID:311-UN) *</td>
+<td>()</td>
+<td>62369</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>McMahon, Michael (ID:271-UN) *</td>
+<td>()</td>
+<td>157771</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Nussbaum, Dale (ID:1220-UN) *</td>
+<td>()</td>
+<td>59579</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Perez II, Radame (ID:1228-NP) *</td>
+<td>()</td>
+<td>154577</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Powell, Adam (ID:CD-UN) *</td>
+<td>()</td>
+<td>88988</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Quart, Dan (ID:710-UN) *</td>
+<td>()</td>
+<td>45385</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Rosa, Carmen (ID:1201-UN) *</td>
+<td>()</td>
+<td>2845</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Ruiz, Jr., Israel (ID:AI-UN) *</td>
+<td>()</td>
+<td>2725</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Sears, Stuart (ID:1257-UN) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>Simon, Brian (ID:1155-UN) *</td>
+<td>()</td>
+<td>32940</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>West, Valerie (ID:1223-UN) *</td>
+<td>()</td>
+<td>7360</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Albanese, Sal (ID:AU-P)</td>
+<td>()</td>
+<td>182557.35</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Allon, Tom (ID:1518-UN) *</td>
+<td>()</td>
+<td>299519.05</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Berkowitz, Ceceilia (ID:1639-P) *</td>
+<td>()</td>
+<td>120</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Broady-Fernandez, Hilda (ID:1701-P) *</td>
+<td>()</td>
+<td>1535</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Carrion, Jr., Adolfo (ID:ED-NP)</td>
+<td>()</td>
+<td>180180</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Catsimatidis, John (ID:1264-NP)</td>
+<td>()</td>
+<td>10809696.5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Coenen, Jr., Kevin (ID:1286-P) *</td>
+<td>()</td>
+<td>175</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Credico, Randy (ID:1669-NP)</td>
+<td>()</td>
+<td>27436.54</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>de Blasio, Bill (ID:326-P)</td>
+<td>()</td>
+<td>10565062.59</td>
+<td>3994496</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Fein, Dan (ID:1028-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Finan, John (ID:1328-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Finnegan, Kevin (ID:647-NP) *</td>
+<td>()</td>
+<td>6475</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Greys, Michael (ID:1853-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Grimaldi, Neil (ID:1603-P)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Gronowicz, Anthony (ID:581-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Hidary, Jack (ID:1796-P)</td>
+<td>()</td>
+<td>911015.92</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Iwachiw, Walter (ID:494-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Laurel-Smith, Abiodun (ID:1752-P)</td>
+<td>()</td>
+<td>3980</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Lee, He (ID:1418-NP) *</td>
+<td>()</td>
+<td>25036.21</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Lhota, Joseph (ID:1690-P)</td>
+<td>()</td>
+<td>3505026.58</td>
+<td>3128034</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Liu, John (ID:FI-P)</td>
+<td>()</td>
+<td>3512687.76</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Marks, Philip (ID:1551-P) *</td>
+<td>()</td>
+<td>500</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>McDonald, George (ID:1605-NP)</td>
+<td>()</td>
+<td>182929.14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>McMillan, James (ID:D4-P)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Melaragno, Joseph (ID:1756-NP)</td>
+<td>()</td>
+<td>23470.96</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Person, Carl (ID:1757-NP)</td>
+<td>()</td>
+<td>15239.94</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Pompey, Cardon (ID:1789-P)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Quinn, Christine (ID:204-P)</td>
+<td>()</td>
+<td>7905433.11</td>
+<td>3534300</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Ruano Melendez, Eric (ID:BF-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Salgado, Erick (ID:1666-P)</td>
+<td>()</td>
+<td>362790.09</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Thompson, Jr., William (ID:260-P)</td>
+<td>()</td>
+<td>4713960.57</td>
+<td>1852446</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Weiner, Anthony (ID:BB-P)</td>
+<td>()</td>
+<td>5626960.63</td>
+<td>1652074</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Guerriero, Catherine (ID:1581-P)</td>
+<td>()</td>
+<td>263431.65</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>James, Letitia (ID:480-P)</td>
+<td>()</td>
+<td>1010109.71</td>
+<td>1153058</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Joiner-Eiland, Tyrrell (ID:1266-P) *</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Lane, James (ID:1780-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Liatos, Deborah (ID:1815-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Lloyd, Michael (ID:1855-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Maresca, Robert (ID:612-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Merced, Alex (ID:1847-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Saujani, Reshma (ID:1552-P)</td>
+<td>()</td>
+<td>1501776.44</td>
+<td>1346424</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Squadron, Daniel (ID:1512-P)</td>
+<td>()</td>
+<td>2086644.45</td>
+<td>2558599</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Wai, Sidique (ID:382-P)</td>
+<td>()</td>
+<td>46969</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Burnett, John (ID:1776-P)</td>
+<td>()</td>
+<td>58531.74</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Davis, Kristin (ID:1599-P) *</td>
+<td>()</td>
+<td>391.21</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>El-Meligy, Hesham (ID:1848-NP)</td>
+<td>()</td>
+<td>9968.3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Spitzer, Eliot (ID:1827-NP)</td>
+<td>()</td>
+<td>10694368.19</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Stringer, Scott (ID:148-P)</td>
+<td>()</td>
+<td>3622238.12</td>
+<td>1952350</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Studer, John (ID:1814-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Willebrand, Julia (ID:568-NP)</td>
+<td>()</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Adams, Eric (ID:1545-P)</td>
+<td>(Bk)</td>
+<td>666085.41</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Arcabascio, Aurelio (ID:1787-P)</td>
+<td>(Q)</td>
+<td>7768.5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Avella, Tony (ID:51-P)</td>
+<td>(Q)</td>
+<td>77667.57</td>
+<td>274620</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Bardel, Henry (ID:E2-NP)</td>
+<td>(SI)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Brewer, Gale (ID:399-P)</td>
+<td>(M)</td>
+<td>499610.63</td>
+<td>847451</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Brown, Everly (ID:EC-P)</td>
+<td>(Q)</td>
+<td>1701</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Calero, Roger (ID:1843-NP)</td>
+<td>(Bx)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Casavis, David (ID:1372-P)</td>
+<td>(M)</td>
+<td>100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Comrie, Leroy (ID:420-P) *</td>
+<td>(Q)</td>
+<td>167981.01</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Diaz Jr., Ruben (ID:1160-P)</td>
+<td>(Bx)</td>
+<td>1242207.59</td>
+<td>397650</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Escoffery-Bey, Mark (ID:1324-P)</td>
+<td>(Bx)</td>
+<td>52000</td>
+<td>222408</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Galinsky, Seth (ID:1813-NP)</td>
+<td>(Q)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Gangemi, John (ID:1731-P) *</td>
+<td>(Bk)</td>
+<td>24335</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Georges, Smith (ID:1771-P) *</td>
+<td>(M)</td>
+<td>917.74</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Grodenchik, Barry (ID:238-UN) *</td>
+<td>(Q)</td>
+<td>151304</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Jackson, Robert (ID:484-P)</td>
+<td>(M)</td>
+<td>473176.28</td>
+<td>795300</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Katz, Melinda (ID:264-P)</td>
+<td>(Q)</td>
+<td>929611.26</td>
+<td>762738</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Lappin, Jessica (ID:805-P)</td>
+<td>(M)</td>
+<td>786900.01</td>
+<td>780864</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Liedy Jr, Louis (ID:1792-P)</td>
+<td>(SI)</td>
+<td>14680</td>
+<td>66870</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Lobman, Sara (ID:1812-NP) *</td>
+<td>(M)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Lundgren, Carl (ID:1714-NP)</td>
+<td>(Bx)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Luthmann, Richard (ID:1758-P) *</td>
+<td>(SI)</td>
+<td>12090</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Menin, Julie (ID:1529-P)</td>
+<td>(M)</td>
+<td>1031953.63</td>
+<td>795170</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Oddo, James (ID:214-P)</td>
+<td>(SI)</td>
+<td>446519.62</td>
+<td>186342</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Peralta, Jose (ID:1549-UN) *</td>
+<td>(Q)</td>
+<td>301316</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Pheffer, Audrey (ID:403-UN) *</td>
+<td>(Q)</td>
+<td>346899</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Scissura, Carlo (ID:320-UN) *</td>
+<td>(Bk)</td>
+<td>127605</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Vallone, Jr., Peter (ID:240-P)</td>
+<td>(Q)</td>
+<td>1092843.11</td>
+<td>655488</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Adams, Dara (ID:1591-UN) *</td>
+<td>(04)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Agosto, Kenneth (ID:862-P) *</td>
+<td>(15)</td>
+<td>520</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Alabi, Olanike (ID:1638-P)</td>
+<td>(35)</td>
+<td>54314.63</td>
+<td>92400</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Alvarez, Albert (ID:1684-P)</td>
+<td>(15)</td>
+<td>24658.59</td>
+<td>92400</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Alvarez, Pedro (ID:1681-P)</td>
+<td>(16)</td>
+<td>44532.83</td>
+<td>92400</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Archer, Trevor (ID:1783-NP)</td>
+<td>(12)</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>Arroyo, Maria (ID:838-P)</td>
+<td>(17)</td>
+<td>104114.37</td>
+<td>64650</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
