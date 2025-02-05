@@ -2,6 +2,8 @@
 
 This project provides a searchable XSLT stylesheet for the financial analysis of the New York City Campaign Contributions dataset, stored in XML format. The dataset can be accessed via the following link: [NYC Campaign Contributions Dataset](https://catalog.data.gov/dataset/2021-financial-analysis/resource/af545d4a-c734-420a-8aef-d8e7e31b3dfe?inner_span=True).
 
+Download the stylesheet here [html](https://github.com/jasonldoyle/Campaign-Finance-xslt-Project/blob/main/campaign_contributions.html)
+
 ## Features
 - XSLT Stylesheet: Transforms the XML data into a clean, user-friendly HTML table format.
 - Searchable Table: Includes functionality to filter and search through specific columns like “Election Cycle” and “Candidate Name.”
